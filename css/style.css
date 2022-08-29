@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: rgb(41, 39, 39);
+  color: #fff;
+  height: 94px;
+}
+
+.header-logo {
+  margin: 25px 50px;
+}
+
+.header-nav {
+  display: flex;
+  flex-basis: 100%;
+  margin: 0;
+  padding: 0 50px;
+  list-style: none;
+}
+
+.header-nav-link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  margin-right: 50px;
+  color: inherit;
+}
+
+.header-phone {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 50px;
+}
+
+.header-phone-link {
+  text-decoration: none;
+  font-size: 16px;
+  color: inherit;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  padding: 25px 60px;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 160%;
+  color: #ffffff;
+  background: #3a71d1;
+  border: none;
+}
+
+.header-button {
+  height: 100%;
+}
+
+/*размер блока header у меня 1600px*/
+@media (max-width: 1600px) {    
+  .header-nav-link, .header-phone-link, .button {
+    font-size: 12px;
+  }
+}
+
+  
+  

@@ -19,17 +19,22 @@ body {
 }
 
 .navbar {
-  position: relative;
+  position: fixed;
 
   display: flex;
   align-items: center;
   height: 94px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 2;
 
   color: #ffffff;
   border-bottom: 1px solid rgba(235, 235, 240, 0.2);
 }
 
 .header {
+  padding-top: 94px;
   min-height: 100vh;
 }
 

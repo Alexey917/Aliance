@@ -31,6 +31,16 @@ body {
 
   color: #ffffff;
   border-bottom: 1px solid rgba(235, 235, 240, 0.2);
+  transition: background-color 0.2s;
+}
+
+.navbar-light {
+  background-color: #ffffff;
+  color: #292D33;
+}
+
+.navbar-light .header-logo-path {
+  fill: #292d33;
 }
 
 .header {

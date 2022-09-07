@@ -421,6 +421,7 @@ body {
     height: .0625rem;
     background-color: #ffffff;
     width: 100%;
+    transition: transform 0.2s;
   }
 
   .navbar-light .mobile-menu-line {
@@ -530,6 +531,18 @@ body {
     text-decoration: none;
   }
 
+  .close-menu .mobile-menu-line:nth-child(2) {
+    display: none;
+  }
 
+  .close-menu .mobile-menu-line:nth-child(1) {
+    transform: rotate(45deg) translateY(7px) translateX(10px);
+  }
+
+  .close-menu .mobile-menu-line:nth-child(3) {
+    transform: rotate(-45deg) translateY(-3px) translateX(5px);
+  }
+
+  
 }
 

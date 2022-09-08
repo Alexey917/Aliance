@@ -340,7 +340,7 @@ body {
   }
 }
 
-@media (max-width: 1480px) {
+@media (max-width: 1500px) {
   html{
     font-size: 13px;
   }
@@ -366,7 +366,7 @@ body {
   }
 }
 
-@media (max-width: 1230px) {
+@media (max-width: 1260px) {
   .container {
     max-width: 70rem;
   }
@@ -385,7 +385,7 @@ body {
   }
 }
 
-@media (max-width: 1060px) {
+@media (max-width: 1080px) {
   html {
     font-size: 12px;
   }

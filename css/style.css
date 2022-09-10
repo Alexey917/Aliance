@@ -56,7 +56,6 @@ body {
 
 .header {
   padding-top: 5.875rem;
-  min-height: 100vh;
 }
 
 .header-image {
@@ -211,6 +210,7 @@ body {
 
 .header-features-item {
   width: 18rem;
+  min-height: 100%;
   padding: 2.125rem 3.125rem;
   border: 1px solid rgba(235, 235, 240, 0.2);
 }
@@ -248,9 +248,33 @@ body {
   margin-bottom: 0;
 }
 
-.header-features-item:not(:last-child) {
-  border-right: none;
+.sliders-buttons {
+  display: none;
+  height: 2.75rem;
 }
+
+.sliders-buttons-steps {
+  display: none;
+  justify-content: flex-end;
+}
+
+.slider-button-prev,
+.slider-button-next {
+  height: 100%;
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 1px solid rgba(235, 235, 240, 0.2);
+}
+
+.arrow-prev,
+.arrow-next {
+  width: 2.25rem;
+  height: 1.5rem;
+}
+
 
 .section {
   margin-top: 9.375rem;
@@ -274,6 +298,8 @@ body {
 
 .steps-item {
   max-width: 20.625rem;
+  min-height: 100%;
+  list-style: none;
 }
 
 .steps-num {
@@ -329,7 +355,25 @@ body {
   margin-right: 1.25rem;
 }
 
-/*размер блока header у меня 1600px*/
+.slider-button-prev-step,
+.slider-button-next-step {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: .8125rem 1.0625rem;
+  margin-top: 1.25rem;
+  background: #5c8ee6;
+}
+
+.arrow-next-step,
+.arrow-prev-step {
+  width: 1.875rem;
+  height: 1.25rem;
+}
+
+
 @media (max-width: 1700px) {    
   html{
     font-size: 14px;
@@ -364,6 +408,9 @@ body {
   .header-phone {
     margin-right: 2rem;
   }
+
+  
+
 }
 
 @media (max-width: 1260px) {
@@ -379,10 +426,15 @@ body {
     height: 5rem;
   }
 
-  navbar-button {
+  .navbar-button {
     padding-left: 2rem;
     padding-right: 2rem;
   }
+
+  .sliders-buttons {
+    display: flex;
+  }
+
 }
 
 @media (max-width: 1080px) {
@@ -402,6 +454,7 @@ body {
     flex-grow: 1;
     justify-content: center;
   }
+
 
   .mobile-menu-toggle {
     padding: 1.7rem;
@@ -543,6 +596,84 @@ body {
     transform: rotate(-45deg) translateY(-3px) translateX(5px);
   }
 
-  
+  .sliders-buttons-steps {
+    display: flex;
+  }
+
 }
+
+@media (max-width: 900px) {
+  .container {
+    max-width: 60rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 40rem;
+  }
+
+  .header-title {
+    font-size: 4rem;
+  }
+
+  .header-content {
+    padding-top: 3rem;
+  }
+
+  .section {
+    margin-top: 6.25rem;
+  }
+
+  .section-title {
+    font-size: 2.25rem;
+  }
+
+  .steps-title {
+    font-size: 1.5rem;
+  }
+
+  .steps-text {
+    font-size: .9375rem;
+  }
+
+  .steps-link {
+    font-size: .9375rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 90%;
+  }
+
+  .header-title {
+    font-size: 2rem;
+  }
+
+  .header-content {
+    padding-top: 2rem;
+  }
+
+  .section {
+    margin-top: 5.25rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .steps-title {
+    font-size: 1.25rem;
+  }
+
+  .steps-text {
+    font-size: .875rem;
+  }
+
+  .steps-link {
+    font-size: .875rem;
+  }
+}
+
 

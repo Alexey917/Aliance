@@ -46,3 +46,99 @@ mMenuToggle.addEventListener('click', (event) => {
   }
 });
 
+const swiper = new Swiper('.swiper', {
+  speed: 400,
+  autoHeight: true,
+  slidesPerView: 1,
+  navigation: {
+    nextEl: '.slider-button-next',
+    prevEl: '.slider-button-prev',
+  },
+   // Responsive breakpoints
+   breakpoints: {  
+    // when window width is >= 576px
+    576: {
+      slidesPerView: 2,
+     /* centeredSlides: true,
+      slidesOffsetBefore: -120,*/
+      width: 480,
+    },
+    // when window width is >= 768px
+    768: {
+      slidesPerView: 3,
+    /*  centeredSlides: true,
+      slidesOffsetBefore: -240,*/
+      width: 720,
+    },
+    // when window width is >= 900px
+    900: {
+      slidesPerView: 3,
+     /* centeredSlides: true,
+      slidesOffsetBefore: -280,*/
+      width: 840,
+    },
+    // when window width is >= 1080px
+    1080: {
+      slidesPerView: 4,
+      width: 909,
+     /* centeredSlides: true,
+      slidesOffsetBefore: -341.5,*/
+    },
+    // when window width is >= 1200px
+    1260: {
+      slidesPerView: 5,
+      width: 1100,
+    }
+  }
+});
+
+const swiper2 = new Swiper('.swiper', {
+  speed: 400,
+  autoHeight: true,
+  slidesPerView: 1,
+  navigation: {
+    nextEl: '.slider-button-next-step',
+    prevEl: '.slider-button-prev-step',
+  },
+   // Responsive breakpoints
+   breakpoints: {
+
+    // when window width is >= 576px
+    320: {
+      slidesPerView: 1,
+     /* centeredSlides: true,
+      slidesOffsetBefore: -120,*/
+    },
+    
+    // when window width is >= 576px
+    576: {
+      slidesPerView: 2,
+     /* centeredSlides: true,
+      slidesOffsetBefore: -120,*/
+      width: 480,
+    },
+    // when window width is >= 768px
+    768: {
+      slidesPerView: 3,
+    /*  centeredSlides: true,
+      slidesOffsetBefore: -240,*/
+      width: 720,
+    },
+    // when window width is >= 900px
+    900: {
+      slidesPerView: 3,
+     /* centeredSlides: true,
+      slidesOffsetBefore: -280,*/
+      width: 840,
+    },
+    // when window width is >= 1080px
+    1080: {
+      slidesPerView: 4,
+      width: 909,
+     /* centeredSlides: true,
+      slidesOffsetBefore: -341.5,*/
+    },
+  }
+});
+
+

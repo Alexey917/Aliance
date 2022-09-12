@@ -435,6 +435,13 @@ body {
     display: flex;
   }
 
+  .steps {
+    gap: 3rem;
+  }
+
+  .sliders-buttons-steps {
+    display: flex;
+  }
 }
 
 @media (max-width: 1080px) {
@@ -596,8 +603,8 @@ body {
     transform: rotate(-45deg) translateY(-3px) translateX(5px);
   }
 
-  .sliders-buttons-steps {
-    display: flex;
+  .steps {
+    gap: 2.75rem;
   }
 
 }
@@ -605,6 +612,10 @@ body {
 @media (max-width: 900px) {
   .container {
     max-width: 60rem;
+  }
+
+  .steps {
+    gap: 0;
   }
 }
 
@@ -640,6 +651,7 @@ body {
   .steps-link {
     font-size: .9375rem;
   }
+
 }
 
 @media (max-width: 576px) {
@@ -674,6 +686,12 @@ body {
   .steps-link {
     font-size: .875rem;
   }
+
+  .steps-item {
+    max-width: 100%;
+  }
 }
+
+
 
 

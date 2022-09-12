@@ -46,7 +46,7 @@ mMenuToggle.addEventListener('click', (event) => {
   }
 });
 
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('#swiper', {
   speed: 400,
   autoHeight: true,
   slidesPerView: 1,
@@ -92,7 +92,7 @@ const swiper = new Swiper('.swiper', {
   }
 });
 
-const swiper2 = new Swiper('.swiper', {
+const steps = new Swiper('#swiper-step', {
   speed: 400,
   autoHeight: true,
   slidesPerView: 1,
@@ -102,41 +102,19 @@ const swiper2 = new Swiper('.swiper', {
   },
    // Responsive breakpoints
    breakpoints: {
-
-    // when window width is >= 576px
     320: {
       slidesPerView: 1,
-     /* centeredSlides: true,
-      slidesOffsetBefore: -120,*/
     },
-    
     // when window width is >= 576px
     576: {
       slidesPerView: 2,
-     /* centeredSlides: true,
-      slidesOffsetBefore: -120,*/
-      width: 480,
     },
     // when window width is >= 768px
     768: {
       slidesPerView: 3,
-    /*  centeredSlides: true,
-      slidesOffsetBefore: -240,*/
-      width: 720,
     },
-    // when window width is >= 900px
-    900: {
-      slidesPerView: 3,
-     /* centeredSlides: true,
-      slidesOffsetBefore: -280,*/
-      width: 840,
-    },
-    // when window width is >= 1080px
-    1080: {
+    1260: {
       slidesPerView: 4,
-      width: 909,
-     /* centeredSlides: true,
-      slidesOffsetBefore: -341.5,*/
     },
   }
 });

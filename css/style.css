@@ -56,6 +56,7 @@ body {
 
 .header {
   padding-top: 5.875rem;
+
 }
 
 .header-image {
@@ -77,6 +78,10 @@ body {
 
   background: rgba(41, 45, 51, 0.75);
 
+}
+
+.logo {
+  display: none;
 }
 
 .header-logo {
@@ -177,6 +182,7 @@ body {
 .header-title {
   margin: 1.375rem 0;
   max-width: 67.5rem;
+  height: 100%;
 
   font-family: 'Bebas Neue';
   font-size: 5rem;
@@ -210,7 +216,7 @@ body {
 
 .header-features-item {
   width: 18rem;
-  min-height: 100%;
+  height: auto;
   padding: 2.125rem 3.125rem;
   border: 1px solid rgba(235, 235, 240, 0.2);
 }

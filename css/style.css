@@ -698,6 +698,13 @@ body {
   }
 }
 
+@media (max-width: 370px) {
+  .swiper-slide.steps-item {
+    height: 200px;
+  }
+
+}
+
 
 
 

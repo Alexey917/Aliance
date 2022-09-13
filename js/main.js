@@ -35,6 +35,11 @@ window.addEventListener('scroll', () => {
   
 });
 
+window.addEventListener('onunload', () => {
+  this.scrollY > 1 ? lightModeOn() : lightModeOff();
+  
+});
+
 mMenuToggle.addEventListener('click', (event) => {
   event.preventDefault();
   if(menu.classList.contains("is-open")) {
@@ -51,7 +56,6 @@ mMenuToggle.addEventListener('click', (event) => {
 
 const swiper = new Swiper('#swiper', {
   speed: 400,
-  
   slidesPerView: 1,
   navigation: {
     nextEl: '.slider-button-next',

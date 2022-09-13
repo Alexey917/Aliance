@@ -695,6 +695,7 @@ body {
 
   .steps-item {
     max-width: 100%;
+    padding-left: .3125rem;
   }
 }
 

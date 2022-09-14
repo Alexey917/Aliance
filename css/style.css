@@ -19,7 +19,6 @@ body {
 
 .container {
   max-width: 90rem;
-  max-height: 875px;
   margin: auto;
 }
 
@@ -161,7 +160,7 @@ body {
 }
 
 .header-button {
-  width: 19.5625rem;
+  min-width: 19.5625rem;
 }
 
 .seporator {
@@ -247,11 +246,15 @@ body {
 }
 
 .header-features-text {
+  /*display: block;*/
+  /*max-width: 200px;*/
+  /*overflow-wrap: break-word;*/
+  margin-top: 1.3125rem;
+  margin-bottom: 0;
+
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
-  margin-top: 1.3125rem;
-  margin-bottom: 0;
 }
 
 .sliders-buttons {
@@ -309,6 +312,7 @@ body {
 }
 
 .steps-num {
+  display: block;
   font-family: 'Bebas Neue';
   font-size: 3rem;
   line-height: 120%;
@@ -335,6 +339,8 @@ body {
 }
 
 .steps-text {
+  /*display: block;
+  overflow-wrap: break-word;*/
   font-weight: 400;
   font-size: 1rem;
   line-height: 160%;
@@ -496,6 +502,7 @@ body {
 
   .mobile-menu-line:nth-child(2) {
     width: 80%;
+    height: .0313rem;
   }
 
   .nav-button .button-text {

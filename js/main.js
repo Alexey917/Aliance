@@ -35,11 +35,6 @@ window.addEventListener('scroll', () => {
   
 });
 
-window.addEventListener('onunload', () => {
-  this.scrollY > 1 ? lightModeOn() : lightModeOff();
-  
-});
-
 mMenuToggle.addEventListener('click', (event) => {
   event.preventDefault();
   if(menu.classList.contains("is-open")) {
@@ -62,39 +57,45 @@ const swiper = new Swiper('#swiper', {
     prevEl: '.slider-button-prev',
   },
    // Responsive breakpoints
-   breakpoints: {  
+   breakpoints: {
+  // when window width is >= 412px
+   375: {
+    slidesPerView: 1,
+    width: 337,
+  },
+   // when window width is >= 412px
+   412: {
+     slidesPerView: 1,
+     width: 370,
+   }, 
+   // when window width is >= 414px
+    414: {
+      slidesPerView: 1,
+      width: 372,
+    }, 
     // when window width is >= 576px
     576: {
       slidesPerView: 2,
-     /* centeredSlides: true,
-      slidesOffsetBefore: -120,*/
       width: 480,
     },
     // when window width is >= 768px
     768: {
       slidesPerView: 3,
-    /*  centeredSlides: true,
-      slidesOffsetBefore: -240,*/
       width: 720,
     },
     // when window width is >= 900px
     900: {
       slidesPerView: 3,
-     /* centeredSlides: true,
-      slidesOffsetBefore: -280,*/
       width: 840,
     },
     // when window width is >= 1080px
     1080: {
       slidesPerView: 4,
       width: 909,
-     /* centeredSlides: true,
-      slidesOffsetBefore: -341.5,*/
     },
-    // when window width is >= 1200px
+    // when window width is >= 1260px
     1260: {
       slidesPerView: 5,
-      width: 1100,
     }
   }
 });

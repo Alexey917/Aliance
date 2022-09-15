@@ -94,6 +94,8 @@ body {
 
 .header-nav {
   display: flex;
+  align-items: center;
+  height: 100%;
   flex-basis: 100%;
   margin: 0;
   padding: 0 3.125rem;
@@ -101,17 +103,43 @@ body {
   list-style: none;
 }
 
+.header-nav-item {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
 .header-nav-item:not(:last-child) {
   margin-right: 4.8%;
 }
 
 .header-nav-link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+
   font-weight: 400;
   font-size: 1rem;
   line-height: 160%;
 
   color: inherit;
   text-decoration: none;
+}
+
+.header-nav-link:after {
+  content: "";
+  width: 100%;
+  height: .125rem;
+  position: absolute;
+  bottom: -1px;
+  background-color: #5c8ee6;
+  transform: scaleX(0);
+  transition: transform 0.2s;
+}
+
+.header-nav-link:hover::after {
+  transform: scaleX(1);
 }
 
 .header-phone {
@@ -367,6 +395,11 @@ body {
   background: #5c8ee6;
   width: 2.5rem;
   margin-right: 1.25rem;
+  transition: width 0.2s;
+}
+
+.steps-link:hover::before {
+  width: 3.75rem;
 }
 
 .slider-button-prev-step,
@@ -387,6 +420,110 @@ body {
   height: 1.25rem;
 }
 
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  position: relative;
+  flex-basis: 33%;
+  border: 1px solid #ebebf0;
+  text-decoration: none;
+  transition: border 0.3s;
+}
+
+.card:hover .card-title {
+  color: #5c8ee6;
+}
+
+.card:hover {
+  border-color: #5c8ee6;
+}
+
+.card-content {
+  padding: 2.5rem 3.125rem;
+}
+
+.card-title {
+  font-weight: 400;
+  font-size: 1.75rem;
+  line-height: 140%;
+  color: #292d33;
+  margin-top: 0;
+  margin-bottom: .625rem;
+  transition: color 0.3s;
+}
+
+.card-text {
+  margin-bottom: 24.625rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #828a99;
+}
+
+.card-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+  width: 90%;
+}
+
+.marks {
+  display: flex;
+  margin-top: 3.125rem;
+}
+
+.card-mark {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  border: 1px solid #ebebf0;
+  transition: border 0.3s;
+}
+
+.card-mark:hover .mark-title {
+  color: #5c8ee6;
+}
+
+.card-mark:hover {
+  border-color: #5c8ee6;
+}
+
+.ag-tech, .ap {
+  padding: 3.125rem;
+  fill: #828a99;
+}
+
+.card-mark:hover .ag-tech{
+  fill: #5c8ee6;
+}
+
+.card-mark:hover .ap {
+  fill: #5c8ee6;
+}
+
+.mark-content {
+  padding: 3.125rem 3.125rem 4.4375rem 0;
+}
+
+.mark-title {
+  margin-bottom: .625rem;
+  font-weight: 400;
+  font-size: 1.75rem;
+  line-height: 160%;
+  color: #292d33;
+  transition: color 0.3s;
+}
+
+.mark-text {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #828A99;
+}
 
 @media (max-width: 1700px) {    
   html{
@@ -423,8 +560,6 @@ body {
     margin-right: 2rem;
   }
 
-  
-
 }
 
 @media (max-width: 1260px) {
@@ -456,6 +591,12 @@ body {
   .sliders-buttons-steps {
     display: flex;
   }
+
+  .card {
+    flex-basis: 50%;
+  }
+
+
 }
 
 @media (max-width: 1080px) {
@@ -622,6 +763,10 @@ body {
     gap: 2.75rem;
   }
 
+  .marks {
+    flex-wrap: wrap;
+  }
+
 }
 
 @media (max-width: 900px) {
@@ -667,6 +812,10 @@ body {
     font-size: .9375rem;
   }
 
+  .card {
+    flex-basis: 100%;
+  }
+
 }
 
 @media (max-width: 576px) {
@@ -706,11 +855,58 @@ body {
     max-width: 100%;
     padding-left: .3125rem;
   }
+
+  .card-mark {
+    position: relative;
+    display: block;
+  }
+
+  .mark-content {
+    padding: 0;
+  }
+
+  .mark-title {
+    position: absolute;
+    right: 5.5rem;
+    left: 16rem;
+    top: 2rem;
+    margin: 0;
+  }
+
+  .mark-text {
+    margin: 0 1.875rem 1.875rem 1.875rem;
+  }
+
+  .ag-tech {
+    width: 11.25rem;
+    height: 11.25rem;
+    margin: 1.875rem 1.875rem 1.25rem 1.875rem;
+    padding: 0;
+  }
+
+  .ap {
+    width: 11.25rem;
+    height: 11.25rem;
+    margin: 1.875rem 1.875rem 1.25rem 1.875rem;
+    padding: 0;
+  }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 380px) {
   .swiper-slide.steps-item {
     height: 200px;
+  }
+
+  .ag-tech {
+    margin: 1.875rem 1.875rem 1.25rem 1rem;
+  }
+
+  .ap {
+    margin: 1.875rem 1.875rem 1.25rem 1rem;
+  }
+
+  .mark-title {
+    left: 13rem;
   }
 
 }

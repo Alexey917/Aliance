@@ -508,13 +508,21 @@ body {
   width: 88%;
 }
 
+.section-trade-marks {
+  margin-top: 9.3rem;
+}
+
+.title-marks {
+  letter-spacing: .4px;
+}
 .marks {
   display: flex;
-  margin-top: 3.125rem;
+  margin-top: 2.8rem;
 }
 
 .card-mark {
   display: flex;
+  width: 45rem;
   align-items: center;
   text-decoration: none;
   border: 1px solid #ebebf0;
@@ -530,7 +538,10 @@ body {
 }
 
 .ag-tech, .ap {
-  padding: 3.125rem;
+  width: 34rem;
+  height: 18rem;
+  margin-left: 3.4rem;
+  margin-right: 3.875rem;
   fill: #828a99;
 }
 
@@ -543,11 +554,13 @@ body {
 }
 
 .mark-content {
-  padding: 3.125rem 3.125rem 4.4375rem 0;
+  padding: 0 3.3rem 2.5rem 0;
 }
 
 .mark-title {
-  margin-bottom: .625rem;
+  margin-top: 2.5rem;
+  margin-bottom: .85rem;
+  margin-left: -0.5rem;
   font-weight: 400;
   font-size: 1.75rem;
   line-height: 160%;
@@ -556,6 +569,8 @@ body {
 }
 
 .mark-text {
+
+  margin-left: -0.7rem;
   font-weight: 400;
   font-size: 1rem;
   line-height: 160%;
@@ -624,16 +639,19 @@ body {
   .steps {
     gap: 3rem;
   }
+  
+  .cards {
+    justify-content: center;
+  }
 
   .sliders-buttons-steps {
     display: flex;
   }
 
-  .card {
-    flex-basis: 50%;
+  .marks {
+    flex-wrap: wrap;
+    justify-content: center;
   }
-
-
 }
 
 @media (max-width: 1080px) {
@@ -800,10 +818,6 @@ body {
     gap: 2.75rem;
   }
 
-  .marks {
-    flex-wrap: wrap;
-  }
-
 }
 
 @media (max-width: 900px) {
@@ -853,6 +867,10 @@ body {
     flex-basis: 100%;
   }
 
+  .card-text {
+    margin-bottom: 26.375rem;
+  }
+
 }
 
 @media (max-width: 576px) {
@@ -893,6 +911,10 @@ body {
     padding-left: .3125rem;
   }
 
+  .card {
+    width: 21.25rem;
+  }
+
   .card-mark {
     position: relative;
     display: block;
@@ -915,16 +937,16 @@ body {
   }
 
   .ag-tech {
-    width: 11.25rem;
-    height: 11.25rem;
-    margin: 1.875rem 1.875rem 1.25rem 1.875rem;
+    width: 8.125rem;
+    height: 8.125rem;
+    margin: 1.875rem 1.875rem 1.25rem 2.875rem;
     padding: 0;
   }
 
   .ap {
-    width: 11.25rem;
-    height: 11.25rem;
-    margin: 1.875rem 1.875rem 1.25rem 1.875rem;
+    width: 8.125rem;
+    height: 8.125rem;
+    margin: 1.875rem 0 1.25rem 4rem;
     padding: 0;
   }
 }
@@ -935,15 +957,16 @@ body {
   }
 
   .ag-tech {
-    margin: 1.875rem 1.875rem 1.25rem 1rem;
+    margin: 1.875rem 1.875rem 1.25rem 1.5rem;
   }
 
   .ap {
-    margin: 1.875rem 1.875rem 1.25rem 1rem;
+    margin: 1.875rem 1.875rem 1.25rem 1.5rem;
   }
 
   .mark-title {
     left: 13rem;
+    font-size: 1.35rem;
   }
 
 }

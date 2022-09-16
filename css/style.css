@@ -325,6 +325,7 @@ body {
   font-size: 3.75rem;
   line-height: 120%;
   color: #292d33;
+  letter-spacing: .4px;
 }
 
 .steps {
@@ -420,6 +421,14 @@ body {
   height: 1.25rem;
 }
 
+.section-production {
+  margin-top: -2.5rem;
+}
+
+.title-production {
+  margin-bottom: 3.5rem;
+}
+
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -427,7 +436,7 @@ body {
 
 .card {
   position: relative;
-  flex-basis: 33%;
+  width: 30rem;
   border: 1px solid #ebebf0;
   text-decoration: none;
   transition: border 0.3s;
@@ -442,7 +451,31 @@ body {
 }
 
 .card-content {
-  padding: 2.5rem 3.125rem;
+  padding: 2.5rem 2.1rem 2.5rem 2rem;
+}
+
+#card-content-1 {
+  padding: 2.5rem 2.1rem 2.5rem 3rem;
+}
+
+#card-content-2 {
+  padding: 2.5rem 5.1rem 2.5rem 3.1rem;
+}
+
+#card-content-3 {
+  padding: 2.5rem 0.5rem 2.5rem 3.2rem;
+}
+
+#card-content-4 {
+  padding: 2.5rem 5.1rem 2.5rem 3.2rem;
+}
+
+#card-content-5 {
+  padding: 2.5rem 1rem 2.5rem 3.2rem;
+}
+
+#card-content-6 {
+  padding: 2.5rem 5.1rem 2.5rem 3.2rem;
 }
 
 .card-title {
@@ -456,7 +489,7 @@ body {
 }
 
 .card-text {
-  margin-bottom: 24.625rem;
+  margin-bottom: 22rem;
   font-weight: 400;
   font-size: 1rem;
   line-height: 160%;
@@ -468,7 +501,11 @@ body {
   bottom: 0;
   right: 0;
   z-index: 0;
-  width: 90%;
+  width: 100%;
+}
+
+.scale-image {
+  width: 88%;
 }
 
 .marks {

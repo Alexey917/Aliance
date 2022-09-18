@@ -102,6 +102,7 @@ const swiper = new Swiper('#swiper', {
 const steps = new Swiper('#swiper-step', {
   speed: 400,
   autoHeight: true,
+  loop: true,
   slidesPerView: 1,
   navigation: {
     nextEl: '.slider-button-next-step',
@@ -110,7 +111,9 @@ const steps = new Swiper('#swiper-step', {
    // Responsive breakpoints
    breakpoints: {
     320: {
-      slidesPerView: 1,
+      slidesPerView: 2,
+      width: 600,
+      spaceBetween: 25,
     },
     // when window width is >= 576px
     576: {

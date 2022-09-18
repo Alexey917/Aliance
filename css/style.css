@@ -624,7 +624,7 @@ body {
   }
 
   .navbar {
-    height: 5rem;
+    height: 5.6rem;
   }
 
   .navbar-button {
@@ -674,8 +674,8 @@ body {
 
 
   .mobile-menu-toggle {
-    padding: 1.7rem;
-    width: 5rem;
+    padding: 2.25rem 2.4rem;
+    width: 6.5rem;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -700,7 +700,7 @@ body {
 
   .mobile-menu-line:nth-child(2) {
     width: 80%;
-    height: .0313rem;
+    height: .1rem;
   }
 
   .nav-button .button-text {
@@ -836,11 +836,11 @@ body {
   }
 
   .header-title {
-    font-size: 4rem;
+    font-size: 3.9rem;
   }
 
   .header-content {
-    padding-top: 3rem;
+    padding-top: 4rem;
   }
 
   .section {
@@ -876,14 +876,6 @@ body {
 @media (max-width: 576px) {
   .container {
     max-width: 90%;
-  }
-
-  .header-title {
-    font-size: 2rem;
-  }
-
-  .header-content {
-    padding-top: 2rem;
   }
 
   .section {
@@ -969,6 +961,88 @@ body {
     font-size: 1.35rem;
   }
 
+  .logo-svg {
+    max-width: 10rem;
+  }
+
+  .header-logo {
+    padding-right: 2.7rem;
+  }
+
+  .header-content {
+    margin-left: -0.2rem;
+  }
+
+  .seporator {
+    width: 8rem;
+  }
+
+  .header-title {
+    margin: 1.375rem 0 1.2rem;
+    line-height: 122%;
+    letter-spacing: 0;
+    word-spacing: 0;
+  }
+
+  .header-text {
+    margin-top: 0;
+    margin-bottom: 2.3rem;
+    font-size: 1.2rem;
+    letter-spacing: -0.3px;
+    line-height: 157%;
+  }
+
+  .button {
+    padding: 1.5625rem 2.2rem;
+  }
+
+  .header-button {
+    padding: 1.8rem 2.2rem;
+    min-width: 100%;
+  }
+
+
+  .swiper-slide.header-features-item.swiper-slide-active {
+    width: 20.5rem !important;    
+  }
+
+  .swiper-slide.header-features-item {
+    height: 12rem;
+  }
+
+  .header-features-item {
+    padding: 2rem 2.2rem;
+  }
+
+  .header-features {
+    margin-top: 4.25rem;
+  }
+
+  .features-icon-1 {
+    width: 2.3rem;
+    height: 2.3rem;
+  }
+
+  .features-mobile-icons {
+    width: 2.3rem;
+    height: 2.3rem;
+  }
+
+  .header-features-text {
+    margin-top: 1.75rem;
+    font-size: 14px;
+  }
+
+  .sliders-buttons {
+    height: 3.5rem;
+    margin-left: -1.7rem;
+    margin-right: -1.7rem;
+  }
+
+  .arrow-prev, .arrow-next {
+    width: 3.25rem;
+    height: 2.5rem;
+  }
 }
 
 

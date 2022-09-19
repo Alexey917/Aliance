@@ -113,7 +113,7 @@ const steps = new Swiper('#swiper-step', {
     320: {
       slidesPerView: 2,
       width: 600,
-      spaceBetween: 25,
+      spaceBetween: 50,
     },
     // when window width is >= 576px
     576: {

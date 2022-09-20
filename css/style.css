@@ -426,6 +426,7 @@ body {
 }
 
 .title-production {
+  margin-top: 1.5rem;
   margin-bottom: 3.5rem;
 }
 
@@ -509,20 +510,26 @@ body {
 }
 
 .section-trade-marks {
-  margin-top: 9.3rem;
+  margin-top: 9.4rem;
 }
 
 .title-marks {
   letter-spacing: .4px;
+  margin-bottom: 3.4375rem;
 }
 .marks {
   display: flex;
-  margin-top: 2.8rem;
+  /*margin-top: 2.8rem;*/
 }
 
 .card-mark {
-  display: flex;
-  width: 45rem;
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  grid-template-rows: auto 1fr;
+  grid-template-areas: 
+  "logo title title"
+  "logo text text";
+  flex-basis: 50%;
   align-items: center;
   text-decoration: none;
   border: 1px solid #ebebf0;
@@ -538,12 +545,40 @@ body {
 }
 
 .ag-tech, .ap {
+  grid-area: logo;
+  width: 11.25rem;
+  height: 11.25rem;
+  margin: 3.125rem;
+  fill: #828a99;
+}
+
+.mark-title {
+  grid-area: title;
+  font-weight: 400;
+  font-size: 1.75rem;
+  line-height: 160%;
+  color: #292d33;
+  transition: color 0.3s;
+  margin: 3.125rem 3.125rem .625rem 0;
+}
+
+.mark-text {
+  grid-area: text;
+  margin-right: 5rem;
+  margin-bottom: 4.4375rem;
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #828A99;
+}
+
+/*.ag-tech, .ap {
   width: 34rem;
   height: 18rem;
   margin-left: 3.4rem;
   margin-right: 3.875rem;
-  fill: #828a99;
-}
+}*/
 
 .card-mark:hover .ag-tech{
   fill: #5c8ee6;
@@ -553,29 +588,19 @@ body {
   fill: #5c8ee6;
 }
 
-.mark-content {
+/*.mark-content {
   padding: 0 3.3rem 2.5rem 0;
-}
+}*/
 
-.mark-title {
+/*.mark-title {
   margin-top: 2.5rem;
   margin-bottom: .85rem;
   margin-left: -0.5rem;
-  font-weight: 400;
-  font-size: 1.75rem;
-  line-height: 160%;
-  color: #292d33;
-  transition: color 0.3s;
-}
+}*/
 
-.mark-text {
-
+/*.mark-text {
   margin-left: -0.7rem;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 160%;
-  color: #828A99;
-}
+}*/
 
 @media (max-width: 1700px) {    
   html{
@@ -648,9 +673,24 @@ body {
     display: flex;
   }
 
-  .marks {
-    flex-wrap: wrap;
-    justify-content: center;
+  .card-mark {
+    grid-template-columns: 170px 1fr;
+  }
+
+  .mark-title {
+    font-size: 1.5rem;
+    margin: 1.5625rem 1.5625rem .3125rem 0;
+  }
+
+  .mark-text {
+    margin-right: 2.5rem;
+    margin-bottom: 2.1875rem;
+  }
+
+  .ag-tech, .ap {
+    width: 7.5rem;
+    height: 7.5rem;
+    margin: 1.5625rem;
   }
 }
 
@@ -828,6 +868,29 @@ body {
   .steps {
     gap: 0;
   }
+
+  .marks {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card-mark {
+    flex-basis: 100%;
+  }
+
+  .ag-tech, .ap {
+    margin: 3.125rem;
+  }
+  
+  .mark-title {
+    font-size: 1.75rem;
+    margin: 3.125rem 3.125rem .625rem 0;
+  }
+
+  .mark-text {
+    margin-right: 7rem;
+    margin-bottom: 4.4375rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -908,27 +971,37 @@ body {
   }
 
   .card-mark {
-    position: relative;
-    display: block;
-  }
-
-  .mark-content {
-    padding: 0;
+    grid-template-columns: 170px 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+    "logo title"
+    "text text";
   }
 
   .mark-title {
+    margin-top: -4rem;
+  }
+
+  .mark-text {
+    margin-left: 3.125rem;
+  }
+  /*.mark-content {
+    padding: 0;
+  }*/
+
+  /*.mark-title {
     position: absolute;
     right: 5.5rem;
     left: 16rem;
     top: 2rem;
     margin: 0;
-  }
+  }*/
 
-  .mark-text {
+  /*.mark-text {
     margin: 0 1.875rem 1.875rem 1.875rem;
-  }
+  }*/
 
-  .ag-tech {
+  /*.ag-tech {
     width: 8.125rem;
     height: 8.125rem;
     margin: 1.875rem 1.875rem 1.25rem 2.875rem;
@@ -940,7 +1013,7 @@ body {
     height: 8.125rem;
     margin: 1.875rem 0 1.25rem 4rem;
     padding: 0;
-  }
+  }*/
 }
 
 @media (max-width: 380px) {
@@ -948,24 +1021,22 @@ body {
     height: 200px;
   }
 
-  .ag-tech {
-    margin: 2.2rem 1.875rem 1.25rem 2rem;
+  .card-mark {
+    grid-template-columns: 140px 1fr;
+  }
+  .ag-tech, .ap {
+    width: 6.25rem;
+    height: 6.25rem;
+    margin: 1.875rem;
   }
 
-  .ap {
-    margin: 1.875rem 1.875rem 1.25rem 2.5rem;
-}
-
   .mark-title {
-    left: 13rem;
-    right: 3.1rem;
-    font-size: 1.62rem;
-    line-height: 150%;
+    margin-top: -1rem;
+    font-size: 1.25rem;
   }
 
   .mark-text {
-    margin: 0.5rem 0.8rem 2.7rem 2.1rem;
-    font-size: 1.15rem;
+    font-size: .875rem;
   }
 
   .logo-svg {
@@ -1056,7 +1127,7 @@ body {
   }
 
   .section {
-    margin-top: 8.5rem;
+    margin-top: 8rem;
   }
 
   .section-title {

@@ -129,4 +129,13 @@ const steps = new Swiper('#swiper-step', {
   }
 });
 
+const blog = new Swiper('.blog-slider', {
+  speed: 400,
+  slidesPerView: 2,
+  spaceBetween: 30,
+  navigation: {
+    nextEl: '.blog-button-next',
+    prevEl: '.blog-button-prev',
+  },
+});
 

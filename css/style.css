@@ -917,6 +917,10 @@ body {
   .clients-images-list {
     height: 390px;
   }
+
+  .blog-card {
+    height: auto;
+  }
 }
 
 @media (max-width: 1080px) {
@@ -1089,6 +1093,10 @@ body {
 
   .clients-images-list {
     height: auto;
+  }
+
+  .blog-card {
+    width: 100%;
   }
 
 }

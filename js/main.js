@@ -137,5 +137,13 @@ const blog = new Swiper('.blog-slider', {
     nextEl: '.blog-button-next',
     prevEl: '.blog-button-prev',
   },
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+    },
+    1080: {
+      slidesPerView: 2,
+    }
+  }
 });
 

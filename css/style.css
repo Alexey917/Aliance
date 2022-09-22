@@ -656,6 +656,10 @@ body {
   margin-top: 2rem;
 }
 
+.founder-link-mobile {
+  display: none;
+}
+
 .section-clients {
   margin-top: 6.3rem;
 }
@@ -724,6 +728,14 @@ body {
 .clients-img:hover {
   filter: grayscale(0%);
 
+}
+
+.cosmetic-logo {
+  display: block;
+}
+
+.cosmetic-mobile-logo {
+  display: none;
 }
 
 @media (max-width: 1700px) {    
@@ -1452,6 +1464,106 @@ body {
 
   .section-trade-marks {
     margin-top: 8.1rem;
+  }
+
+  .section-founder {
+    margin-top: 11.1rem;
+  }
+
+  .founder-photo {
+    height: 293px;
+    margin-bottom: 1.125rem;
+  }
+
+  .founder-text-1 {
+    margin-left: -0.5rem;
+    margin-bottom: -0.4rem;
+    font-size: 14px;
+    line-height: 157%;
+  }
+
+  .founder-text {
+    margin-left: -0.5rem;
+    font-size: 14px;
+  }
+
+  .founder-link {
+    display: none;
+  }
+
+  .founder-link-mobile {
+    display: block;
+    margin-top: 1.5rem;
+    margin-left: 3.1rem;
+  }
+
+  .section-clients {
+    margin-top: 8.3rem;
+  }
+
+  .clients-list-item {
+    font-size: 1.16em;
+    gap: 1.5rem;
+  }
+
+  .client-logo {
+    width: 2.7rem;
+    height: 2.7rem;
+    margin-left: -0.4rem;
+  }
+
+  .cosmetic-logo {
+    display: none;
+  }
+
+  .cosmetic-mobile-logo {
+    display: block;
+  }
+
+  .him {
+    margin-bottom: 1.26rem;
+  }
+
+  .car {
+    margin-bottom: 1rem;
+  }
+
+  .eat {
+    margin-bottom: 1rem;
+  }
+
+  .brush {
+    margin-bottom: 1rem;
+  }
+
+  .cosmetic {
+    margin-bottom: 1rem;
+  }
+
+  .car-cosm {
+    margin-bottom: 1rem;
+  }
+
+  .shirt {
+    margin-bottom: 1rem;
+  }
+
+  .boots {
+    margin-bottom: 1rem;
+  }
+
+  .clients-images-list {
+    margin-top: -3rem;
+    margin-left: 0;
+  }
+
+  .client-img-item {
+    flex-basis: 50%;
+    height: 110px;
+  }
+
+  .ninth-item {
+    display: none;
   }
 }
 

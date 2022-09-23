@@ -1678,6 +1678,59 @@ body {
   .ninth-item {
     display: none;
   }
+
+  .section-blog {
+    margin-top: 8.3rem;
+  }
+
+  .title-blog {
+    margin-bottom: 2.8rem;
+  }
+
+  .blog-card-title {
+    font-size: 1.7rem;
+    line-height: 127%;
+  }
+
+  .blog-card-text {
+    display: none;
+  }
+
+  .blog-card {
+    min-height: 16.2rem;
+    width: 347px !important;
+    padding: 8.2rem 1.6rem 1.7rem 1.5rem
+  }
+
+  .blog-slider {
+    margin-left: -0.4rem;
+  }
+
+  .blog-link {
+    display: flex;
+  }
+
+  .blog-slider-footer {
+    margin-top: 0.6rem;
+  }
+
+  .blog-buttons {
+    margin-right: 1rem;
+  }
+
+  .blog-button-prev, 
+  .blog-button-next {
+    width: 5rem;
+    height: 3.35rem;
+  }
+
+  .blog-arrow-right {
+    padding-right: 0;
+  }
+
+  .blog-arrow-left {
+    padding-left: 0;
+  }
 }
 
 

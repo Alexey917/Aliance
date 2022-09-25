@@ -1904,6 +1904,59 @@ body {
   .blog-arrow-left {
     padding-left: 0;
   }
+
+  .section-cta {
+    margin-top: 8rem;
+  }
+
+  .cta-form-title {
+    margin-top: 0.1rem;
+    margin-left: -0.3rem;
+    letter-spacing: 0.6px;
+  }
+
+  .cta-form-text {
+    margin-left: -0.1rem;
+    margin-bottom: 2.5rem;
+    font-size: 1.15rem;
+    line-height: 153%;
+  }
+
+  .input-group {
+    width: 28.375rem;
+    height: 5.1rem;
+  }
+
+  .name-label {
+    font-size: 1.1em;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .phone-label {
+    font-size: 1.1em;
+    margin-left: 0.7rem;
+    margin-top: 0.5rem;
+  }
+
+  .cta-form-footer {
+    margin-top: 1rem;
+  }
+
+  .cta-form-button {
+    font-size: 1.2rem;
+  }
+
+  .notify-icon {
+    width: 14px;
+    height: 14px;
+    margin-top: 0.7rem;
+  }
+
+  .notify-text {
+    margin-top: 0.7rem;
+    font-size: 1rem;
+  }
 }
 
 

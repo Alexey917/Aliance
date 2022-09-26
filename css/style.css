@@ -979,10 +979,9 @@ body {
 
 .footer-top {
   padding-top: 3.125rem;
-  padding-bottom: 3.125rem;
+  padding-bottom: 2.7rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .footer-logo {
@@ -993,10 +992,15 @@ body {
 .footer-info {
   display: flex;
   align-items: center;
+  margin-left: 5rem;
   gap: .625rem;
   text-decoration: none;
   font-style: normal;
   color: #292d33
+}
+
+.footer-info-2 {
+  margin-left: 3.2rem;
 }
 
 .footer-info-address, .footer-info-email {
@@ -1006,12 +1010,17 @@ body {
 }
 
 .footer-phone {
+  margin-left: 10rem;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
   line-height: 160%;
   text-decoration-line: underline;
   color: #292D33;
+}
+
+.footer-info-social {
+  margin-left: 5rem;
 }
 
 .footer-info-vk, .footer-info-inst {
@@ -1029,7 +1038,7 @@ body {
 }
 
 .footer-menu-title {
-  margin-top: 0;
+  margin-top: -0.4rem;
   margin-bottom: 1.875rem;
   font-weight: 600;
   font-size: 1rem;
@@ -1045,7 +1054,7 @@ body {
 
 .footer-menu-column {
   columns: 20rem auto;
-  min-width: 50rem;
+  min-width: 45rem;
 }
 
 .footer-menu-link {
@@ -1067,7 +1076,8 @@ body {
 }
 
 .footer-menu-wrapper:last-child {
-  margin-left: 5rem;
+  margin-left: 10.5rem;
+  margin-top: -0.4rem;
 }
 
 .ruso-logo {
@@ -1076,7 +1086,8 @@ body {
 }
 
 .footer-wrapper {
-  padding-top: 1.25rem;
+  margin-top: -.5rem;
+  padding-top: 0;
   padding-bottom: 1.25rem;
   font-style: normal;
   color: #828a99;
@@ -1096,6 +1107,11 @@ body {
   line-height: 160%;
   text-decoration: none;
   color: inherit;
+}
+
+.footer-seporator-2 {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 @media (max-width: 1700px) {    

@@ -977,6 +977,126 @@ body {
   color: #828a99;
 }
 
+.footer-top {
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  width: 12.5rem;
+  height: 3.75rem;
+}
+
+.footer-info {
+  display: flex;
+  align-items: center;
+  gap: .625rem;
+  text-decoration: none;
+  font-style: normal;
+  color: #292d33
+}
+
+.footer-info-address, .footer-info-email {
+  font-style: inherit;
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.footer-phone {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 160%;
+  text-decoration-line: underline;
+  color: #292D33;
+}
+
+.footer-info-vk, .footer-info-inst {
+  text-decoration: none;
+}
+
+.footer-seporator {
+  color: #ebebf0;
+}
+
+.footer-bottom {
+  display: flex;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+
+.footer-menu-title {
+  margin-top: 0;
+  margin-bottom: 1.875rem;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #292d33;
+}
+
+.footer-menu-list {
+  margin: 0;
+  padding-left: 1.25rem;
+  list-style: none;
+}
+
+.footer-menu-column {
+  columns: 20rem auto;
+  min-width: 50rem;
+}
+
+.footer-menu-link {
+  display: block;
+  margin-bottom: .9375rem;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #828a99;
+  text-decoration: none;
+}
+
+.footer-menu-link-bold {
+  margin-bottom: 1.875rem;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 160%;
+  color: #292d33;
+}
+
+.footer-menu-wrapper:last-child {
+  margin-left: 5rem;
+}
+
+.ruso-logo {
+  width: 3.25rem;
+  height: .6875rem;
+}
+
+.footer-wrapper {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  font-style: normal;
+  color: #828a99;
+}
+
+.footer-wrapper, .footer-legal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5rem;
+}
+
+.footer-copyright, .footer-policy {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+  text-decoration: none;
+  color: inherit;
+}
 
 @media (max-width: 1700px) {    
   html{

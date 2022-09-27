@@ -1120,6 +1120,10 @@ body {
   font-size: 0.8rem;
 }
 
+.stupid-designer {
+  display: none;
+}
+
 @media (max-width: 1700px) {    
   html{
     font-size: 14px;
@@ -2116,6 +2120,7 @@ body {
 
   .section-cta {
     margin-top: 8rem;
+    padding-bottom: 2.35rem;
   }
 
   .cta-form-title {
@@ -2165,6 +2170,94 @@ body {
   .notify-text {
     margin-top: 0.7rem;
     font-size: 1rem;
+  }
+
+  .footer-top {
+    gap: 1.7rem;
+    padding-bottom: 1.7rem;
+  }
+
+  .footer-logo {
+    height: 5.75rem;
+    max-width: 13rem;
+  }
+
+  .footer-phone {
+    font-size: 2.3rem;
+  }
+
+  .footer-info {
+    font-size: 1.15rem;
+  }
+
+  .footer-info-2 {
+    margin-top: -0.8rem;
+  }
+
+  .footer-info-social {
+    margin-top: 0;
+  }
+
+  .footer-menu-title {
+    margin-top: -1.2rem;
+    margin-left: -0.4rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+
+  .footer-menu-link {
+    margin-top: -0.3rem;
+    margin-left: 1.2rem;
+    line-height: 171%;
+    font-size: 14px;
+  }
+
+  .footer-menu-wrapper {
+    margin-bottom: 1.4rem;
+  }
+
+  .footer-menu-wrapper:last-child {
+    margin-top: -0.9rem;
+    margin-left: -1.5rem;
+  }
+
+  .footer-menu-link-bold {
+    margin-bottom: 2.6rem;
+  }
+
+  .footer-seporator-2 {
+    margin-top: -3rem;
+  }
+
+  .footer-copyright {
+    margin-top: 2rem;
+    margin-left: -0.4rem;
+  }
+
+  .footer-policy {
+    margin-top: -0.3rem;
+    margin-left: -0.4rem;
+  }
+  .made-in {
+    display: none;
+  }
+
+  .stupid-designer {
+    display: inline-flex;
+    font-size: 1rem;
+    margin-top: -0.3rem;
+    margin-left: -0.3rem;
+  }
+
+  .footer-author {
+    margin-top: -1.5rem;
+  }
+
+  .ruso-logo {
+    width: 4.25rem;
+    height: 3.6875rem;
+    margin-left: 0.5rem;
+    margin-bottom: -1.5rem;
   }
 }
 

@@ -1020,11 +1020,13 @@ body {
 }
 
 .footer-info-social {
-  margin-left: 5rem;
+  margin-left: 4.73rem;
+  margin-top: 0.5rem;
 }
 
 .footer-info-vk, .footer-info-inst {
   text-decoration: none;
+  margin-right: 0.3rem;
 }
 
 .footer-seporator {
@@ -1112,6 +1114,10 @@ body {
 .footer-seporator-2 {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.made-in {
+  font-size: 0.8rem;
 }
 
 @media (max-width: 1700px) {    

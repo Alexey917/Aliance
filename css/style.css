@@ -427,7 +427,7 @@ body {
 
 .steps-link:before {
   content: "";
-  height: .0625rem;
+  height: .07rem;
   background: #5c8ee6;
   width: 2.5rem;
   margin-right: 1.25rem;
@@ -571,7 +571,6 @@ body {
 }
 .marks {
   display: flex;
-  /*margin-top: 2.8rem;*/
 }
 
 .card-mark {
@@ -673,6 +672,8 @@ body {
 .founder-link {
   margin-top: 2rem;
 }
+
+
 
 .founder-link-mobile {
   display: none;

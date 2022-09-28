@@ -148,21 +148,24 @@ const blog = new Swiper('.blog-slider', {
 });
 
 const modal = document.querySelector(".modal");
-const modalToggle = document.querySelectorAll("[data-toggle=modal]"); // поиск кнопки, вызывающей модальное окно
-const modalClose = document.querySelector(".modal-close");
 const modalDialog = document.querySelector(".modal-dialog");
-modalToggle.forEach((element) => {
-  element.addEventListener("click", (event) => {
+
+document.addEventListener("click", (event) => {
+  if(event.target.dataset.toggle == "modal" || 
+  event.target.parentNode.dataset.toggle == "modal" || 
+  !event.composedPath().includes(modalDialog) && modal.classList.contains("modal-is-open")) { //если элемент содержит модал или родитель содержит модал, или содержит ли путь до элемента модал диалог, то ....
     event.preventDefault();
-    modal.classList.add("modal-is-open");
-  })
+    modal.classList.toggle("modal-is-open");
+  }
 });
 
-modalClose.addEventListener("click", (event) => {
-  event.preventDefault();
-  modal.classList.remove("modal-is-open");
-
+document.addEventListener("keyup", (event) => {
+  if(event.key == "Escape" && modal.classList.contains("modal-is-open")) {
+    modal.classList.toggle("modal-is-open");
+  }
 });
+
+
 
 
 

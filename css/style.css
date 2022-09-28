@@ -1383,6 +1383,10 @@ body {
   .footer-menu-link-bold {
     font-size: 14px;
   }
+
+  .modal-close {
+    margin-top: -1rem;
+  }
 }
 
 @media (max-width: 1080px) {

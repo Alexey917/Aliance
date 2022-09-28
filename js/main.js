@@ -150,6 +150,7 @@ const blog = new Swiper('.blog-slider', {
 const modal = document.querySelector(".modal");
 const modalToggle = document.querySelectorAll("[data-toggle=modal]"); // поиск кнопки, вызывающей модальное окно
 const modalClose = document.querySelector(".modal-close");
+const modalDialog = document.querySelector(".modal-dialog");
 modalToggle.forEach((element) => {
   element.addEventListener("click", (event) => {
     event.preventDefault();
@@ -160,4 +161,10 @@ modalToggle.forEach((element) => {
 modalClose.addEventListener("click", (event) => {
   event.preventDefault();
   modal.classList.remove("modal-is-open");
-})
+
+});
+
+
+
+
+

@@ -1178,18 +1178,18 @@ body {
 }
 
 .modal-title {
-  margin-top: 0;
-  margin-bottom: 1.25rem;
+  margin-top: -0.3rem;
+  margin-bottom: 1.5rem;
   font-family: 'Bebas Neue';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 3rem;
   line-height: 120%;
   color: #292D33;
 }
 
 .modal-text {
-  margin-bottom: 1.875rem;
+  margin-bottom: 2rem;
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
@@ -1200,6 +1200,10 @@ body {
 .input-group-vertical {
   display: flex;
   flex-direction: column;
+}
+
+.modal-input {
+  max-width: 22.5rem;
 }
 
 .modal-input-group {
@@ -1213,7 +1217,10 @@ body {
 }
 
 .modal-form-button {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.7rem;
+  width: 22.5rem;
+  height: 3.75rem;
+  font-size: 0.9rem;
 }
 
 @media (max-width: 1700px) {    

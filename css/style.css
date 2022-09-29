@@ -46,7 +46,18 @@ body {
 .navbar-light {
   background-color: #ffffff;
   color: #292D33;
-  height: 4.625rem;
+}
+
+.navbar-light .logo-light {
+  display: none;
+}
+
+.navbar-light .logo-dark {
+  display: block;
+}
+
+.navbar-scroll {
+  height: 4.5rem;
 }
 
 .navbar-light .header-logo-path {
@@ -79,7 +90,7 @@ body {
 
 }
 
-.logo {
+.logo-dark {
   display: none;
 }
 

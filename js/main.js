@@ -43,7 +43,7 @@ mMenuToggle.addEventListener('click', (event) => {
   if(menu.classList.contains("is-open")) {
     closeMenu()
     if(this.scrollY > 1) {
-      lightModeOn()
+      lightModeOn();
     } else {
       lightModeOff();
     }

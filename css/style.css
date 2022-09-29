@@ -60,7 +60,7 @@ body {
   height: 4.5rem;
 }
 
-.navbar-light .header-logo-path {
+.navbar-light .header-logo-dark-path {
   fill: #292d33;
 }
 
@@ -681,6 +681,7 @@ body {
 }
 
 .founder-link {
+  display: flex;
   margin-top: 2rem;
 }
 
@@ -1660,6 +1661,16 @@ body {
   .footer-copyright {
     margin-bottom: 0;
   }
+
+  .cta-form-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cta-form {
+    max-width: 31.5rem;
+    margin-right: 3rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1723,12 +1734,17 @@ body {
 
   .cta-form {
     margin-right: 0;
+    max-width: 37.5rem;
   }
 
   .input-group-wrapper {
     width: 100%;
   }
 
+  .cta-form-footer {
+    flex-direction: row;
+    align-items: center;
+  }
 }
 
 @media (max-width: 576px) {
@@ -2105,7 +2121,8 @@ body {
   }
 
   .founder-link-mobile {
-    display: block;
+    display: flex;
+    align-items: center;
     margin-top: 1.1rem;
     margin-left: -0.3rem;
   }

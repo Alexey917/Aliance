@@ -1558,7 +1558,7 @@ body {
   }
 
   .close-menu .mobile-menu-line:nth-child(3) {
-    transform: rotate(-45deg) translateY(-3px) translateX(5px);
+    transform: rotate(-45deg) translateY(1px) translateX(0px);
   }
 
   .steps {

@@ -4,6 +4,13 @@ const logo = document.querySelector(".logo");
 const mMenuToggle = document.querySelector(".mobile-menu-toggle");
 const menu = document.querySelector(".mobile-menu");
 const isFront = document.body.classList.contains("front-page");
+const company = document.body.classList.contains("about-company");
+const production = document.body.classList.contains("production");
+const mark = document.body.classList.contains("own-marks");
+const newsBlog = document.body.classList.contains("news");
+const contact = document.body.classList.contains("contacts");
+const listContacts = document.querySelector(".breadcrumb");
+
 
 const lightModeOn = (event) => {
   navbar.classList.add("navbar-light");
@@ -52,6 +59,50 @@ mMenuToggle.addEventListener('click', (event) => {
   }
 });
 
+/* функции добавляющие элемент списка */
+const addBreadcrumbAbout = (event) => {
+  listContacts.insertAdjacentHTML('beforeend', '<a href="about.html" class="breadcrumb-link breadcrumb-next-link">О компании</a>');
+}
+
+const addBreadcrumbProduction = (event) => {
+  listContacts.insertAdjacentHTML('beforeend', '<a href="production.html" class="breadcrumb-link breadcrumb-next-link">Контрактное производство</a>');
+}
+
+
+const addBreadcrumbMarks = (event) => {
+  listContacts.insertAdjacentHTML('beforeend', '<a href="about.html" class="breadcrumb-link breadcrumb-next-link">Собственные марки</a>');
+}
+
+const addBreadcrumbBlog = (event) => {
+  listContacts.insertAdjacentHTML('beforeend', '<a href="about.html" class="breadcrumb-link breadcrumb-next-link">Блог</a>');
+}
+
+const addBreadcrumbContats = (event) => {
+  listContacts.insertAdjacentHTML('beforeend', '<a href="about.html" class="breadcrumb-link breadcrumb-next-link">Контакты</a>');
+}
+
+/* условия для добавления списков */
+if (company) {
+  addBreadcrumbAbout();
+}  
+
+if (production) {
+  addBreadcrumbProduction();
+}
+
+if (mark) {
+  addBreadcrumbMarks();
+}
+
+if (newsBlog) {
+  addBreadcrumbBlog();
+}
+
+if (contact) {
+  addBreadcrumbContats();
+}
+
+/* слайдер с шагами */ 
 const swiper = new Swiper('#swiper', {
   speed: 400,
   slidesPerView: 1,

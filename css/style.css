@@ -66,7 +66,63 @@ body {
 
 .header {
   padding-top: 5.875rem;
+}
 
+.header-section {
+  padding-top: 3.125rem;
+  background-color: #f0f2f5;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+  padding-bottom: 3.125rem;
+}
+
+.breadcrumb-item {
+  list-style: none;
+  margin-right: .625rem;
+}
+
+/*.breadcrumb-item-about,
+.breadcrumb-item-production,
+.breadcrumb-item-marks,
+.breadcrumb-item-blog,
+.breadcrumb-item-contacts {
+  display: none;
+}*/
+
+.breadcrumb-link  {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #828a99;
+}
+
+.breadcrumb-next-link::before {
+  content: "";
+  height: .07rem;
+  background: #828a99;
+  width: 0.7rem;
+  margin-right: 10px;
+}
+
+
+
+
+.header-title-about-company {
+  margin-top: 1.875rem;
+  margin-bottom: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 5rem;
+  line-height: 120%;
+  color: #292D33;
 }
 
 .header-image {
@@ -479,6 +535,10 @@ body {
 .cards {
   display: flex;
   flex-wrap: wrap;
+}
+
+.production-card-margin {
+  margin-top: 6.25rem;
 }
 
 .card {

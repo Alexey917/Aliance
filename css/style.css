@@ -85,13 +85,7 @@ body {
   margin-right: .625rem;
 }
 
-/*.breadcrumb-item-about,
-.breadcrumb-item-production,
-.breadcrumb-item-marks,
-.breadcrumb-item-blog,
-.breadcrumb-item-contacts {
-  display: none;
-}*/
+
 
 .breadcrumb-link  {
   display: flex;
@@ -104,6 +98,10 @@ body {
   color: #828a99;
 }
 
+.breadcrumb-next-link:not(:first-child) {
+  color: #292d33;
+}
+
 .breadcrumb-next-link::before {
   content: "";
   height: .07rem;
@@ -112,10 +110,12 @@ body {
   margin-right: 10px;
 }
 
+.header-section {
+  position: relative;
+}
 
 
-
-.header-title-about-company {
+.header-title-all {
   margin-top: 1.875rem;
   margin-bottom: 1.25rem;
   font-style: normal;
@@ -123,6 +123,19 @@ body {
   font-size: 5rem;
   line-height: 120%;
   color: #292D33;
+}
+
+.avto-him-header-image {
+  position: absolute;
+  right: 15rem;
+  bottom: 0;
+}
+
+.header-background {
+  background-image: url('../img/blog/blog-1.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center;
 }
 
 .header-image {
@@ -839,6 +852,7 @@ body {
   text-decoration: none;
   justify-content: flex-end;
   padding: 3.125rem;
+  
 }
 
 .blog-card::before {

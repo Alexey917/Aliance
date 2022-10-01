@@ -1,4 +1,5 @@
 const navbar = document.querySelector(".navbar");
+const headerSection = document.querySelector(".header-section");
 const logoLight = document.querySelector(".logo-light");
 const logo = document.querySelector(".logo");
 const mMenuToggle = document.querySelector(".mobile-menu-toggle");
@@ -9,7 +10,14 @@ const production = document.body.classList.contains("production");
 const mark = document.body.classList.contains("own-marks");
 const newsBlog = document.body.classList.contains("news");
 const contact = document.body.classList.contains("contacts");
+const agTech = document.body.classList.contains("agtech");
+const autohim = document.body.classList.contains("autohim");
+const blogModern = document.body.classList.contains("blogmodern");
 const listContacts = document.querySelector(".breadcrumb");
+const colorBreadcrumb = document.querySelector(".breadcrumb-link");
+const colorBreadcrumbNext = document.querySelector(".breadcrumb-next-link");
+const colorBreadcrumbLast = document.querySelector(".breadcrumb-next-link:not(:first-child)");
+const headerTitleAll = document.querySelector(".header-title-all");
 
 
 const lightModeOn = (event) => {
@@ -22,6 +30,10 @@ const lightModeOff = (event) => {
 
 const changeNavHeight = (height) => {
   navbar.style.height = height;
+}
+
+const headerBackground = (event) => {
+  headerSection.classList.add("header-background");
 }
 
 const openMenu = (event) => {   //функция открывания меню
@@ -62,45 +74,88 @@ mMenuToggle.addEventListener('click', (event) => {
 /* функции добавляющие элемент списка */
 const addBreadcrumbAbout = (event) => {
   listContacts.insertAdjacentHTML('beforeend', '<a href="about.html" class="breadcrumb-link breadcrumb-next-link">О компании</a>');
+  listContacts.insertAdjacentHTML('beforebegin', '<h1 class="header-title header-title-all">о компании</h1>');
 }
 
 const addBreadcrumbProduction = (event) => {
   listContacts.insertAdjacentHTML('beforeend', '<a href="production.html" class="breadcrumb-link breadcrumb-next-link">Контрактное производство</a>');
+  listContacts.insertAdjacentHTML('beforebegin', '<h1 class="header-title header-title-all">Контрактное производство</h1>');
 }
 
 
 const addBreadcrumbMarks = (event) => {
-  listContacts.insertAdjacentHTML('beforeend', '<a href="about.html" class="breadcrumb-link breadcrumb-next-link">Собственные марки</a>');
+  listContacts.insertAdjacentHTML('beforeend', '<a href="marks.html" class="breadcrumb-link breadcrumb-next-link">Собственные марки</a>');
+  listContacts.insertAdjacentHTML('beforebegin', '<h1 class="header-title header-title-all">Собственные марки</h1>');
 }
 
 const addBreadcrumbBlog = (event) => {
-  listContacts.insertAdjacentHTML('beforeend', '<a href="about.html" class="breadcrumb-link breadcrumb-next-link">Блог</a>');
+  listContacts.insertAdjacentHTML('beforeend', '<a href="news.html" class="breadcrumb-link breadcrumb-next-link">Блог</a>');
+  listContacts.insertAdjacentHTML('beforebegin', '<h1 class="header-title header-title-all">Блог</h1>');
 }
 
 const addBreadcrumbContats = (event) => {
-  listContacts.insertAdjacentHTML('beforeend', '<a href="about.html" class="breadcrumb-link breadcrumb-next-link">Контакты</a>');
+  listContacts.insertAdjacentHTML('beforeend', '<a href="contacts.html" class="breadcrumb-link breadcrumb-next-link">Контакты</a>');
+  listContacts.insertAdjacentHTML('beforebegin', '<h1 class="header-title header-title-all">Контакты</h1>');
+}
+
+const addBreadcrumbAutohim = (event) => {
+  listContacts.insertAdjacentHTML('beforeend', '<a href="autohim.html" class="breadcrumb-link breadcrumb-next-link">Автомобильная химия</a>');
+  listContacts.insertAdjacentHTML('beforebegin', '<h1 class="header-title header-title-all">Автомобильная химия</h1>');
+  listContacts.insertAdjacentHTML('beforebegin', '<img class="avto-him-header-image" src="img/avto-him.png" alt="автомобильная химия"></img>');
+}
+
+const addBreadcrumbAgTech = (event) => {
+  listContacts.insertAdjacentHTML('beforeend', '<a href="autohim.html" class="breadcrumb-link breadcrumb-next-link">Автохимия AG-Tech</a>');
+  listContacts.insertAdjacentHTML('beforebegin', '<h1 class="header-title header-title-all">Автохимия AG-Tech</h1>');
+  listContacts.insertAdjacentHTML('beforebegin', '<img class="avto-him-header-image" src="img/avto-him.png" alt="автомобильная химия"></img>');
+}
+
+const addBreadcrumbBlogModern = (event) => {
+  listContacts.insertAdjacentHTML('beforeend', '<a href="autohim.html" class="breadcrumb-link breadcrumb-next-link">Современная методология разработки одухотворила всех причастных</a>');
+  listContacts.insertAdjacentHTML('beforebegin', '<h1 class="header-title header-title-all">Современная методология разработки одухотворила всех причастных</h1>');
+  headerBackground();
 }
 
 /* условия для добавления списков */
-if (company) {
-  addBreadcrumbAbout();
-}  
-
-if (production) {
-  addBreadcrumbProduction();
+const headerCondition = (event) => {
+  if (company) {
+    addBreadcrumbAbout();
+  }  
+  
+  if (production) {
+    addBreadcrumbProduction();
+  }
+  
+  if (mark) {
+    addBreadcrumbMarks();
+  }
+  
+  if (newsBlog) {
+    addBreadcrumbBlog();
+  }
+  
+  if (contact) {
+    addBreadcrumbContats();
+  }
+  
+  if (autohim) {
+    addBreadcrumbAutohim();
+  }
+  
+  if (agTech) {
+    addBreadcrumbAgTech();
+  }
+  
+  if (blogModern) {
+    addBreadcrumbBlogModern();
+    colorBreadcrumb.style.color = "#FFFFFF";
+    colorBreadcrumbNext.style.color = "#FFFFFF";
+    //colorBreadcrumbLast.style.color = "#FFFFFF";
+    headerTitleAll.style.color = "#FFFFFF";
+  }
 }
 
-if (mark) {
-  addBreadcrumbMarks();
-}
-
-if (newsBlog) {
-  addBreadcrumbBlog();
-}
-
-if (contact) {
-  addBreadcrumbContats();
-}
+headerCondition();
 
 /* слайдер с шагами */ 
 const swiper = new Swiper('#swiper', {

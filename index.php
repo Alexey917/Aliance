@@ -17,12 +17,12 @@
     <div class="mobile-menu">
       <ul class="mobile-menu-nav">
         <li class="mobile-menu-nav-item">
-          <a href="about.html" class="mobile-menu-nav-link">О компании</a></li>
+          <a href="about.php" class="mobile-menu-nav-link">О компании</a></li>
         <li class="mobile-menu-nav-item">
-          <a href="production.html" class="mobile-menu-nav-link">Контрактное производство</a>
+          <a href="production.php" class="mobile-menu-nav-link">Контрактное производство</a>
           <ul class="mobile-submenu">
             <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="autohim.html">Автомобильная химия</a>
+              <a class="mobile-submenu-link" href="autohim.php">Автомобильная химия</a>
             </li>
             <li class="mobile-submenu-item">
               <a class="mobile-submenu-link" href="#">Бытовая химия</a>
@@ -42,18 +42,18 @@
           </ul>
         </li>
         <li class="mobile-menu-nav-item">
-          <a href="marks.html" class="mobile-menu-nav-link">Собственные торговые марки</a>
+          <a href="marks.php" class="mobile-menu-nav-link">Собственные торговые марки</a>
           <ul class="mobile-submenu">
             <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="ag-tech.html">Автохимия AG-Tech</a>
+              <a class="mobile-submenu-link" href="ag-tech.php">Автохимия AG-Tech</a>
             </li>
             <li class="mobile-submenu-item">
               <a class="mobile-submenu-link" href="#">Автохимия AP</a>
             </li>
           </ul>
         </li>
-        <li class="mobile-menu-nav-item"><a href="news.html" class="mobile-menu-nav-link">Новости</a></li>
-        <li class="mobile-menu-nav-item"><a href="contacts.html" class="mobile-menu-nav-link">Контакты</a></li>
+        <li class="mobile-menu-nav-item"><a href="news.php" class="mobile-menu-nav-link">Новости</a></li>
+        <li class="mobile-menu-nav-item"><a href="contacts.php" class="mobile-menu-nav-link">Контакты</a></li>
       </ul>
 
       <a class="mobile-phone" href="tel:+74996861014">+7 (499) 686-10-14</a>
@@ -107,11 +107,11 @@
       </a>
 
       <ul class="header-nav">
-        <li class="header-nav-item"><a href="about.html" class="header-nav-link">О компании</a></li>
-        <li class="header-nav-item"><a href="production.html" class="header-nav-link">Контрактное производство</a></li>
-        <li class="header-nav-item"><a href="marks.html" class="header-nav-link">Собственные торговые марки</a></li>
-        <li class="header-nav-item"><a href="news.html" class="header-nav-link">Новости</a></li>
-        <li class="header-nav-item"><a href="contacts.html" class="header-nav-link">Контакты</a></li>
+        <li class="header-nav-item"><a href="about.php" class="header-nav-link">О компании</a></li>
+        <li class="header-nav-item"><a href="production.php" class="header-nav-link">Контрактное производство</a></li>
+        <li class="header-nav-item"><a href="marks.php" class="header-nav-link">Собственные торговые марки</a></li>
+        <li class="header-nav-item"><a href="news.php" class="header-nav-link">Новости</a></li>
+        <li class="header-nav-item"><a href="contacts.php" class="header-nav-link">Контакты</a></li>
       </ul>
 
       <div class="header-phone">
@@ -256,7 +256,7 @@
         <div class="seporator seporator-product"></div>
         <h2 class="section-title title-production">Контрактное производство</h2>
         <div class="cards">
-          <a class="card" href="autohim.html">
+          <a class="card" href="autohim.php">
             <div class="card-content" id="card-content-1">
               <h3 class="card-title">Автомобильная химия</h3>
               <p class="card-text">Безусловно, сплочённость команды профессионалов позволяет оценить<br>значение форм воздействия.</p>
@@ -310,7 +310,7 @@
         <h2 class="section-title title-marks">собственные торговые марки</h2>
         <h2 class="section-title title-marks-without">собственные  марки</h2>
         <div class="marks">
-          <a class="card-mark" href="ag-tect.html">
+          <a class="card-mark" href="ag-tect.php">
             <svg class="ag-tech">
               <use href="img/sprite.svg#ag-tech"></use>
             </svg>
@@ -339,8 +339,8 @@
             <h2 class="section-title title-founder">Отношение к делу <br> и к клиентам</h2>
             <p class="founder-text founder-text-1">Кстати, интерактивные прототипы описаны максимально подробно. Повседневная практика показывает, что укрепление и развитие внутренней структуры говорит о возможностях соответствующих условий активизации. Внезапно, независимые государства, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут подвергнуты целой серии независимых исследований. С учётом сложившейся международной обстановки, синтетическое тестирование выявляет срочную потребность системы массового участия.</p>
             <p class="founder-text">А ещё действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены сами себе. Не следует, однако, забывать, что выбранный нами инновационный путь в значительной степени обусловливает важность дальнейших направлений развития.</p>
-            <a href="about.html" class="steps-link founder-link">Подробнее о компании</a>
-            <a href="about.html" class="steps-link founder-link-mobile">О нашей миссии</a>
+            <a href="about.php" class="steps-link founder-link">Подробнее о компании</a>
+            <a href="about.php" class="steps-link founder-link-mobile">О нашей миссии</a>
           </div>
           <!-- /.founder-content -->
         </div>
@@ -447,7 +447,7 @@
          <!-- Additional required wrapper -->
          <div class="swiper-wrapper">
             <!-- Slides -->
-            <a href="blogmodern.html" class="swiper-slide blog-card">
+            <a href="blogmodern.php" class="swiper-slide blog-card">
               <img src="img/blog/blog-2.jpg" alt="blog-2" class="blog-card-image">
               <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
               <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
@@ -485,151 +485,7 @@
       </div>
     </section>
 
-    <section class="cta">
-      <div class="bg-grey section-cta">
-        <img src="img/cta.png" alt="call to action" class="cta-img">
-        <div class="cta-form-wrapper container">
-          <form action="#" class="cta-form">
-            <h2 class="section-title cta-form-title">Хотите сотрудничать?</h2>
-            <p class="cta-form-text">Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!</p>
-            <div class="input-group-wrapper">
-              <div class="input-group">
-                <input id="user-name" type="text" class="input" placeholder=" ">
-                <label class="input-group-label name-label" for="user-name">Имя</label>
-              </div>
-              <div class="input-group">
-                <input id="user-phone" type="tel" class="input" placeholder=" ">
-                <label class="input-group-label phone-label" for="user-phone">+_(___)___-__-__</label>
-                <label class="input-group-label phone-label label-phone-number" for="user-phone">Номер телефона</label>
-              </div>
-            </div>
-
-            <div class="cta-form-footer">
-              <button type="submit" class="button cta-form-button">Отправить заявку</button>
-              <div class="notify">
-                <svg class="notify-icon">
-                  <use href="img/sprite.svg#shield"></use>
-                </svg>
-                <p class="notify-text">Обращаясь к нам вы получаете не только профессиональную работу, но и абсолютную конфиденциальность информации!</p>
-              </div>
-            </div>
-            <!-- /.cta-form-footer -->
-          </form>
-        </div>
-        <!-- /.cta-form-wrapper -->
-      </div>
-    </section>
-
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-top">
-          <svg class="logo-svg footer-logo">
-            <use href="img/sprite.svg#logo"></use>
-          </svg>
-          <a href="tel:+74996861014" class="footer-phone">+7 (499) 686-10-14</a>
-          <div class="footer-info">
-            <svg class="phone-icon" width="24" height="24">
-              <use href="img/sprite.svg#mark"></use>
-            </svg>
-            <address class="footer-info-address">г. Мосвка, Холодильный пер. 4к1с8</address>
-          </div>
-          <!-- /.footer-info -->
-    
-          <div class="footer-info footer-info-2">
-            <svg class="phone-icon" width="24" height="24">
-              <use href="img/sprite.svg#mail"></use>
-            </svg>
-            <a class="footer-info-email" href="mailto:a.dragunov@tdaliance.ru">a.dragunov@tdaliance.ru</a>
-          </div>
-          <!-- /.mobile-info -->
-    
-          <div class="footer-info-social">
-            <a class="footer-info-vk" href="#">
-              <svg class="phone-icon" width="24" height="24">
-                <use href="img/sprite.svg#vk"></use>
-              </svg>
-            </a>
-            <a class="footer-info-inst" href="#">
-              <svg class="phone-icon" width="24" height="24">
-                <use href="img/sprite.svg#inst"></use>
-              </svg>
-            </a>
-          </div>
-           <!-- /.footer-info-social -->
-        </div>
-        
-      </div>
-      <hr color="#ebebf0" class="footer-seporator">
-      <div class="container">
-        <div class="footer-bottom">
-          <div class="footer-menu-wrapper">
-            <h2 class="footer-menu-title">Контрактное производство</h2>
-            <ul class="footer-menu-list footer-menu-column">
-              <li class="footer-menu-item">
-                <a href="autohim.html" class="footer-menu-link">Автомобильная химия</a>
-              </li>
-              <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">Бытовая химия</a>
-              </li>
-              <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">Дезинфицирующие средства</a>
-              </li>
-              <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">Пищевые аэрозоли</a>
-              </li>
-              <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">Косметическая продукция</a>
-              </li>
-              <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">Краски аэрозольные</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="footer-menu-wrapper">
-            <h2 class="footer-menu-title">Собственные марки</h2>
-            <ul class="footer-menu-list">
-              <li class="footer-menu-item">
-                <a href="ag-tect.html" class="footer-menu-link">Автохимия AG-Tech</a>
-              </li>
-              <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">Автохимия AP</a>
-              </li>
-          </div>
-
-        <div class="footer-menu-wrapper">
-          <ul class="footer-menu-list">
-            <li class="footer-menu-item">
-              <a href="about.html" class="footer-menu-link footer-menu-link-bold">О компании</a>
-            </li>
-            <li class="footer-menu-item">
-              <a href="news.html" class="footer-menu-link footer-menu-link-bold">Новости</a>
-            </li>
-            <li class="footer-menu-item">
-              <a href="contacts.html" class="footer-menu-link footer-menu-link-bold">Контакты</a>
-            </li>
-        </div>
-        
-        </div>
-      </div>
-      <hr color="#ebebf0" class="footer-seporator footer-seporator-2">
-        <div class="container">
-          <div class="footer-wrapper">
-            <div class="footer-legal">
-              <p class="footer-copyright">&copy; <?php echo date('Y')?> «Aliance Production». Все права защищены.</p>
-              <a href="#" class="footer-policy">Политики конфиденциальности</a>
-            </div>
-            <div class="footer-author">
-              <span class="made-in">Сделано в</span>
-              <span class="stupid-designer">Дизайн и разработка:</span>
-              <svg class="ruso-logo" width="24" height="24">
-                <use href="img/sprite.svg#ruso"></use>
-              </svg>
-            </div>
-          </div>
-        </div>
-    </footer>
-    <!-- /.footer -->
+    <?php include_once('footer.php');?>
 
     <div class="modal">
       <div class="modal-dialog">

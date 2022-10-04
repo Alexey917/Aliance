@@ -114,6 +114,14 @@ body {
   margin-right: 10px;
 }
 
+.breadcrumb-before-link::before {
+  background: #ffffff;
+}
+
+.breadcrumb-last-link::before {
+  background: #ffffff;
+}
+
 .header-section {
   position: relative;
 }

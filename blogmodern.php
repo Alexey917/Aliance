@@ -138,7 +138,7 @@
             
             <ul class="breadcrumb">
               <li class="breadcrumb-item"><a href="./" class="breadcrumb-link">Главная</a></li>      
-              <li class="breadcrumb-item"><a href="news.php" class="breadcrumb-link breadcrumb-next-link">Блог</a></li> 
+              <li class="breadcrumb-item"><a href="news.php" class="breadcrumb-link breadcrumb-next-link breadcrumb-before-link">Блог</a></li> 
             </ul>
           </div>
         </div>

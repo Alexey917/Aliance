@@ -16,7 +16,6 @@ const blogModern = document.body.classList.contains("blogmodern");
 const listContacts = document.querySelector(".breadcrumb");
 const colorBreadcrumb = document.querySelector(".breadcrumb-link");
 const colorBreadcrumbNext = document.querySelector(".breadcrumb-next-link");
-const colorBreadcrumbLast = document.querySelector(".breadcrumb-next-link:not(:first-child)");
 
 
 const lightModeOn = (event) => {

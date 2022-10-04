@@ -138,7 +138,7 @@
            
             <ul class="breadcrumb">
               <li class="breadcrumb-item"><a href="./" class="breadcrumb-link">Главная</a></li>      
-              <li class="breadcrumb-item"><a href="production.php" class="breadcrumb-link">Контрактное производство</a></li>
+              <li class="breadcrumb-item"><a href="production.php" class="breadcrumb-link breadcrumb-next-link">Контрактное производство</a></li>
             </ul>
           </div>
         </div>

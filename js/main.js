@@ -17,7 +17,6 @@ const listContacts = document.querySelector(".breadcrumb");
 const colorBreadcrumb = document.querySelector(".breadcrumb-link");
 const colorBreadcrumbNext = document.querySelector(".breadcrumb-next-link");
 const colorBreadcrumbLast = document.querySelector(".breadcrumb-next-link:not(:first-child)");
-const headerTitleAll = document.querySelector(".header-title-all");
 
 
 const lightModeOn = (event) => {
@@ -111,8 +110,8 @@ const addBreadcrumbAgTech = (event) => {
 }
 
 const addBreadcrumbBlogModern = (event) => {
-  listContacts.insertAdjacentHTML('beforeend', '<a href="autohim.html" class="breadcrumb-link breadcrumb-next-link">Современная методология разработки одухотворила всех причастных</a>');
-  listContacts.insertAdjacentHTML('beforebegin', '<h1 class="header-title header-title-all">Современная методология разработки одухотворила всех причастных</h1>');
+  listContacts.insertAdjacentHTML('beforeend', '<a href="autohim.html" class="breadcrumb-link breadcrumb-next-link breadcrumb-last-link">Современная методология разработки одухотворила всех причастных</a>');
+  listContacts.insertAdjacentHTML('beforebegin', '<h1 class="header-title header-title-all header-title-all-fix">Современная методология разработки одухотворила всех причастных</h1>');
   headerBackground();
 }
 
@@ -150,8 +149,6 @@ const headerCondition = (event) => {
     addBreadcrumbBlogModern();
     colorBreadcrumb.style.color = "#FFFFFF";
     colorBreadcrumbNext.style.color = "#FFFFFF";
-    //colorBreadcrumbLast.style.color = "#FFFFFF";
-    headerTitleAll.style.color = "#FFFFFF";
   }
 }
 

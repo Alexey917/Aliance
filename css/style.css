@@ -102,6 +102,10 @@ body {
   color: #292d33;
 }
 
+.breadcrumb-last-link:not(:first-child) {
+  color: #ffffff;
+}
+
 .breadcrumb-next-link::before {
   content: "";
   height: .07rem;
@@ -125,10 +129,16 @@ body {
   color: #292D33;
 }
 
+.header-title-all-fix {
+  color: #ffffff;
+}
+
 .avto-him-header-image {
   position: absolute;
   right: 15rem;
   bottom: 0;
+  width: 29.125rem;
+  height: 15.125rem;
 }
 
 .header-background {
@@ -2505,15 +2515,10 @@ body {
 
   .modal-input-label {
     font-size: 1.2em;
-   /* margin-left: -0.4rem;*/
   }
 
   .modal-input-label-2 {
     font-size: 1.2em;
-   /*margin-left: -0.1rem;*/
-  }
-
-  .modal-form-footer {
   }
 
   .modal-form-button {

@@ -12,7 +12,7 @@ $formData = array(
 );
 
 foreach($formData as $key => $value) {
-  $text .= $key . "<b>" . $value . "</b>" . "%0A";
+  $text .= $key . "<b>" . urlencode($value) . "</b>" . "%0A";
 }
 
 $sendToTelegram = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&text={$text}&parse_mode=html", "r");
@@ -22,5 +22,3 @@ if ($sendToTelegram) {
 } else {
   echo "Error";
 }
-echo "привет! " . $user_name . "<br>";
-echo "ваш телефон: <b>" . $user_phone . "</b>";

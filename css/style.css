@@ -143,7 +143,7 @@ body {
 
 .avto-him-header-image {
   position: absolute;
-  right: 15rem;
+  right: 10rem;
   bottom: 0;
   width: 29.125rem;
   height: 15.125rem;
@@ -1689,7 +1689,6 @@ body {
   .footer-phone, .footer-info, .footer-info-social{
     margin-left: 0;
   }
-
 }
 
 @media (max-width: 900px) {

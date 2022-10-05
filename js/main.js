@@ -50,6 +50,13 @@ const closeMenu = (event) => {   //функция закрывает меню
 
 window.addEventListener('scroll', () => {
  this.scrollY > 1 ? changeNavHeight("4.5rem") : changeNavHeight("5.875rem");
+ 
+ if (scrollY > 1) {
+  mMenuToggle.classList.add("mobile-menu-toggle-scroll");
+ } else {
+  mMenuToggle.classList.remove("mobile-menu-toggle-scroll");
+ }
+
  if (isFront) {
   this.scrollY > 1 ? lightModeOn() : lightModeOff();
  }

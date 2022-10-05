@@ -1522,6 +1522,10 @@ body {
     border-right: 1px solid rgba(235, 235, 240, 0.2);
   }
 
+  .mobile-menu-toggle-scroll {
+    padding: 1.7rem 2.4rem;
+  }
+
   .navbar-light .mobile-menu-toggle {
     border-right: 1px solid #EBEBF0;
   }

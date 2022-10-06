@@ -260,21 +260,38 @@ const blog = new Swiper('.blog-slider', {
   }
 });
 
-const modal = document.querySelector(".modal");
-const modalDialog = document.querySelector(".modal-dialog");
+let currentModal;  //текущее модальное окно
+let modalDialog;   //белое диалоговое окно
+let alertModal = document.querySelector("#alert-modal"); //окно с благодарностью
 
-document.addEventListener("click", (event) => {
-  if(event.target.dataset.toggle == "modal" || 
-  event.target.parentNode.dataset.toggle == "modal" || 
-  !event.composedPath().includes(modalDialog) && modal.classList.contains("modal-is-open")) { //если элемент содержит модал или родитель содержит модал, или содержит ли путь до элемента модал диалог, то ....
+const modalButtons = document.querySelectorAll("[data-toggle=modal]"); //переключатели модальных окон
+modalButtons.forEach((button) => {
+  /*клик по переключателю*/
+  button.addEventListener("click", (event) => {  
     event.preventDefault();
-    modal.classList.toggle("modal-is-open");
-  }
+    /*определяем текущее открытое окно*/ 
+    currentModal = document.querySelector(button.dataset.target);
+    currentModal.classList.toggle("modal-is-open");
+    currentModal.addEventListener("click", (event) => {
+      if(!event.composedPath().includes(modalDialog)) {
+        currentModal.classList.remove("modal-is-open");
+      }
+    })
+  });
 });
 
+/*document.addEventListener("click", (event) => {
+  if(event.target.dataset.toggle == "modal" || 
+  event.target.parentNode.dataset.toggle == "modal" || 
+  !event.composedPath().includes(modalDialog) && currentModal.classList.contains("modal-is-open")) { //если элемент содержит модал или родитель содержит модал, или содержит ли путь до элемента модал диалог, то ....
+    event.preventDefault();
+    currentModal.classList.toggle("modal-is-open");
+  }
+});*/
+
 document.addEventListener("keyup", (event) => {
-  if(event.key == "Escape" && modal.classList.contains("modal-is-open")) {
-    modal.classList.toggle("modal-is-open");
+  if(event.key == "Escape" && currentModal.classList.contains("modal-is-open")) {
+    currentModal.classList.toggle("modal-is-open");
   }
 });
 

@@ -144,10 +144,10 @@
     </footer>
     <!-- /.footer -->
 
-    <div class="modal">
+    <div class="modal feedback-modal">
       <div class="modal-dialog">
         <h2 class="modal-title">Есть вопросы?</h2>
-        <a href="#" class="modal-close" data-toggle="modal">
+        <a href="#" class="modal-close" data-toggle="modal" data-target="#feedback-modal">
           <svg class="close-icon">
             <use href="img/sprite.svg#close"></use>
           </svg>
@@ -178,6 +178,21 @@
             </div>
           </div>
         </form>
+      </div>
+    </div>
+
+    <div class="modal" id="alert-modal">
+      <div class="modal-dialog">
+        <h2 class="modal-title">Спасибо за заявку!</h2>
+        <a href="#" class="modal-close" data-toggle="modal" data-target="#alert-modal">
+          <svg class="close-icon">
+            <use href="img/sprite.svg#close"></use>
+          </svg>
+        </a>
+        <p class="modal-text">
+          Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
+        </p>
+        
       </div>
     </div>
 

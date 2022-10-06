@@ -139,7 +139,7 @@
           <div class="seporator"></div>
           <h1 class="header-title">Комплексное обеспечение товарами и расходными материалами бизнеса</h1>
           <p class="header-text">Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: высококачественный прототип будущего проекта напрямую зависит от анализа существующих паттернов поведения.</p>
-          <button class="button header-button" data-toggle="modal">Подробнее о компании</button>
+          <button class="button header-button" data-toggle="modal" data-target="#feedback-modal">Подробнее о компании</button>
         </div>
         <!-- /.header-content -->
 

@@ -278,6 +278,49 @@ document.addEventListener("keyup", (event) => {
   }
 });
 
+const forms = document.querySelectorAll("form");  //собираем все формы
+  forms.forEach((form) => {
+    const validation = new JustValidate(form, {
+      errorFieldCssClass: 'is-invalid',
+  }); 
+  validation
+  .addField("[name=username]", [
+    {
+      rule: 'required',
+      errorMessage: "Укажите имя",
+    },
+    {
+      rule: 'maxLength',
+      value: 50,
+      errorMessage: "Много букав",
+    },
+  ])
+  .addField("[name=userphone]", [
+    {
+      rule: 'required',
+      errorMessage: 'Укажите телефон',
+    },
+  ])
+  .onSuccess((event) => {
+    const thisForm = event.target;  //определяем нашу форму
+    const formData = new FormData(thisForm); //данные из нашей формы
+    const ajaxSend = (formData) => {
+      fetch(thisForm.getAttribute("action"), {
+        method: thisForm.getAttribute("method"),
+        body: formData,
+      }).then((response) => {
+        if (response.ok) {
+        thisForm.reset();
+        alert("Форма отправлена! ");
+        } else {
+          alert("Ошибка. Текст ошибки: ".response.statusText);
+        }
+      });
+    };
+    ajaxSend(formData);
+  });
+});
+
 
 
 

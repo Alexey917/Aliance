@@ -270,13 +270,20 @@ modalButtons.forEach((button) => {
   button.addEventListener("click", (event) => {  
     event.preventDefault();
     /*определяем текущее открытое окно*/ 
+    console.log(currentModal = document.querySelector(button.dataset.target));
     currentModal = document.querySelector(button.dataset.target);
-    currentModal.classList.toggle("modal-is-open");
-    currentModal.addEventListener("click", (event) => {
-      if(!event.composedPath().includes(modalDialog)) {
-        currentModal.classList.remove("modal-is-open");
-      }
-    })
+    /*открываем текущее окно*/
+    // currentModal.classList.toggle("modal-is-open");
+    // /*назначаем диалоговое окно*/ 
+    // modalDialog = currentModal.querySelector(".modal-dialog");
+    // /*отслеживаем клик по окну и по пустым областям*/ 
+    // currentModal.addEventListener("click", (event) => {
+    //   /*если клик в пустую область (не диалог)*/ 
+    //   if(!event.composedPath().includes(modalDialog)) {
+    //     /*закрываем окно*/ 
+    //     currentModal.classList.remove("modal-is-open");
+    //   }
+    // });
   });
 });
 
@@ -289,8 +296,11 @@ modalButtons.forEach((button) => {
   }
 });*/
 
+/*ловим событие нажатия на кнопку*/ 
 document.addEventListener("keyup", (event) => {
+  /*проверяем, что это кнопка esc и текущее окно открыто*/ 
   if(event.key == "Escape" && currentModal.classList.contains("modal-is-open")) {
+    /*закрываем текущее окно*/ 
     currentModal.classList.toggle("modal-is-open");
   }
 });
@@ -328,7 +338,18 @@ const forms = document.querySelectorAll("form");  //собираем все фо
       }).then((response) => {
         if (response.ok) {
         thisForm.reset();
-        alert("Форма отправлена! ");
+        currentModal.classList.remove("modal-is-open");
+        alertModal.classList.add("modal-is-open");
+        currentModal = alertModal;
+        modalDialog = currentModal.querySelector(".modal-dialog");
+        /*отслеживаем клик по окну и по пустым областям*/ 
+        currentModal.addEventListener("click", (event) => {
+          /*если клик в пустую область (не диалог)*/ 
+          if(!event.composedPath().includes(modalDialog)) {
+           /*закрываем окно*/ 
+           currentModal.classList.remove("modal-is-open");
+          }
+        });
         } else {
           alert("Ошибка. Текст ошибки: ".response.statusText);
         }

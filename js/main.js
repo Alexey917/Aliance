@@ -64,18 +64,28 @@ window.addEventListener('scroll', () => {
 
 mMenuToggle.addEventListener('click', (event) => {
   event.preventDefault();
-  if(menu.classList.contains("is-open")) {
-    closeMenu();
-    if(this.scrollY > 1) {
+  if (isFront) {
+    if(menu.classList.contains("is-open")) {
+      closeMenu();
+      if(this.scrollY > 1) {
+        lightModeOn();
+      } else {
+        lightModeOff();
+      }
+
+    } else {
+      openMenu();
+    }
+  } else {
+    if(menu.classList.contains("is-open")) {
+      closeMenu();
       lightModeOn();
     } else {
-      lightModeOff();
+      openMenu();
     }
-
-  } else {
-    openMenu();
   }
 });
+
 
 /* функции добавляющие элемент списка */
 const addBreadcrumbAbout = (event) => {
@@ -326,6 +336,11 @@ const forms = document.querySelectorAll("form");  //собираем все фо
     {
       rule: 'required',
       errorMessage: 'Укажите телефон',
+    },
+    {
+      rule: 'minLength',
+      value: 11,
+      errorMessage: "Некорректный номер",
     },
   ])
   .onSuccess((event) => {

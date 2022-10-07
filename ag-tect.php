@@ -135,7 +135,7 @@
         <div class="header-section">
           <div class="container">
             <div class="seporator"></div>
-            
+            <img class="avto-him-header-image" src="img/avto-him.png" alt="автомобильная химия"></img>
             <ul class="breadcrumb">
               <li class="breadcrumb-item"><a href="./" class="breadcrumb-link">Главная</a></li>      
               <li class="breadcrumb-item"><a href="marks.php" class="breadcrumb-link breadcrumb-next-link">Собственные марки</a></li> 

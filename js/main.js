@@ -117,13 +117,13 @@ const addBreadcrumbContats = (event) => {
 const addBreadcrumbAutohim = (event) => {
   listContacts.insertAdjacentHTML('beforeend', '<a href="autohim.html" class="breadcrumb-link breadcrumb-next-link">Автомобильная химия</a>');
   listContacts.insertAdjacentHTML('beforebegin', '<h1 class="header-title header-title-all">Автомобильная химия</h1>');
-  listContacts.insertAdjacentHTML('beforebegin', '<img class="avto-him-header-image" src="img/avto-him.png" alt="автомобильная химия"></img>');
+  //listContacts.insertAdjacentHTML('beforebegin', '<img class="avto-him-header-image" src="img/avto-him.png" alt="автомобильная химия"></img>');
 }
 
 const addBreadcrumbAgTech = (event) => {
   listContacts.insertAdjacentHTML('beforeend', '<a href="autohim.html" class="breadcrumb-link breadcrumb-next-link">Автохимия AG-Tech</a>');
   listContacts.insertAdjacentHTML('beforebegin', '<h1 class="header-title header-title-all">Автохимия AG-Tech</h1>');
-  listContacts.insertAdjacentHTML('beforebegin', '<img class="avto-him-header-image" src="img/avto-him.png" alt="автомобильная химия"></img>');
+  //listContacts.insertAdjacentHTML('beforebegin', '<img class="avto-him-header-image" src="img/avto-him.png" alt="автомобильная химия"></img>');
 }
 
 const addBreadcrumbBlogModern = (event) => {
@@ -280,7 +280,6 @@ modalButtons.forEach((button) => {
   button.addEventListener("click", (event) => {  
     event.preventDefault();
     /*определяем текущее открытое окно*/ 
-    console.log(currentModal = document.querySelector(button.dataset.target));
     currentModal = document.querySelector(button.dataset.target);
     /*открываем текущее окно*/
     // currentModal.classList.toggle("modal-is-open");

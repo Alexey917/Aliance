@@ -1782,6 +1782,10 @@ body {
     max-width: 31.5rem;
     margin-right: 3rem;
   }
+
+  .avto-him-header-image {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {

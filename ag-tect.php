@@ -122,7 +122,7 @@
       </div>
       <!-- /.header-phone -->
 
-      <button class="nav-button button" data-toggle="modal">
+      <button class="nav-button button" data-toggle="modal" data-target="#feedback-modal">
         <svg class="button-icon" width="24" height="24">
           <use href="img/sprite.svg#phone"></use>
         </svg>

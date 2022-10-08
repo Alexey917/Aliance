@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Aliance Production</title>
+    <title> <?= $page_title ?> - Aliance Production</title>
   </head>
 
-  <body class="front-page">
+<body class="about-company">
     <div class="mobile-menu">
       <ul class="mobile-menu-nav">
         <li class="mobile-menu-nav-item">
@@ -45,14 +45,14 @@
           <a href="marks.php" class="mobile-menu-nav-link">Собственные торговые марки</a>
           <ul class="mobile-submenu">
             <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="ag-tech.php">Автохимия AG-Tech</a>
+              <a class="mobile-submenu-link" href="ag-tect.php">Автохимия AG-Tech</a>
             </li>
             <li class="mobile-submenu-item">
               <a class="mobile-submenu-link" href="#">Автохимия AP</a>
             </li>
           </ul>
         </li>
-        <li class="mobile-menu-nav-item"><a href="news.php" class="mobile-menu-nav-link">Новости</a></li>
+        <li class="mobile-menu-nav-item"><a href="newsphp" class="mobile-menu-nav-link">Новости</a></li>
         <li class="mobile-menu-nav-item"><a href="contacts.php" class="mobile-menu-nav-link">Контакты</a></li>
       </ul>
 
@@ -90,7 +90,7 @@
     </div>
     <!-- /.mobile-menu -->
 
-    <nav class="navbar">
+    <nav class="navbar navbar-light">
       <a class="mobile-menu-toggle" href="#">
         <div class="mobile-menu-line"></div>
         <div class="mobile-menu-line"></div>
@@ -130,86 +130,29 @@
       </button>
       <!-- /.header-button button -->
     </nav>
-    <!-- /.navbar -->
-    <header class="header header-image">
-      
 
-      <div class="container">
-        <div class="header-content">
-          <div class="seporator"></div>
-          <h1 class="header-title">Комплексное обеспечение товарами и расходными материалами бизнеса</h1>
-          <p class="header-text">Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: высококачественный прототип будущего проекта напрямую зависит от анализа существующих паттернов поведения.</p>
-          <button class="button header-button" data-toggle="modal" data-target="#feedback-modal">Подробнее о компании</button>
-        </div>
-        <!-- /.header-content -->
-
-        <!-- основной блок слайдера -->
-        <div class="swiper" id="swiper">
-          <!-- обертка слайдера -->
-          <ul class="swiper-wrapper header-features">
-            <!-- слайды -->
-            <li class="swiper-slide  header-features-item">
-              <svg class="features-icon-1 features-mobile-icons">
-                <use href="img/sprite.svg#time"></use>
-              </svg>
-              <p class="header-features-text">Непрерывная работа c 2017 года</p>
-            </li>
-            <li class="swiper-slide  header-features-item">
-              <svg class="features-icon-2 features-mobile-icons">
-                <use href="img/sprite.svg#cetificate"></use>
-              </svg>
-              <p class="header-features-text">Вся продукция сертифицирована</p>
-            </li>
-            <li class="swiper-slide  header-features-item">
-              <svg class="features-icon-3 features-mobile-icons">
-                <use href="img/sprite.svg#control"></use>
-              </svg>
-              <p class="header-features-text">Контроль качества на всех этапах</p>
-            </li>
-            <li class="swiper-slide  header-features-item">
-              <svg class="features-icon-4 features-mobile-icons">
-                <use href="img/sprite.svg#delivery"></use>
-              </svg>
-              <p class="header-features-text">Возможны поставки по всей России</p>
-            </li>
-            <li class="swiper-slide  header-features-item">
-              <svg class="features-icon-5 features-mobile-icons">
-                <use href="img/sprite.svg#speed"></use>
-              </svg>
-              <p class="header-features-text">Оперативное производство</p>
-            </li>
-          </ul>
-         
-          <!-- кнопки навигации вперед/назад -->
-          <div class="sliders-buttons">
-            <div class="slider-button-prev">
-              <svg class="arrow-prev">
-                <use href="img/sprite.svg#arrow-prev"></use>
-              </svg>
-            </div>
-            <div class="slider-button-next">
-              <svg class="arrow-next">
-                <use href="img/sprite.svg#arrow-next"></use>
-              </svg>
-            </div> 
+    <header class="header">
+        <div class="header-section">
+          <div class="container">
+            <div class="seporator"></div>
+            <h1 class="header-title header-title-all  <?= $header_title_style;?> "><?= $page_title ?></h1>
+            <ul class="breadcrumb">
+              <li class="breadcrumb-item"><a href="./" class="breadcrumb-link">Главная</a></li>
+              <?php
+              if ($metka == "контрактное производство") {
+                echo '<li class="breadcrumb-item"><a href="production.html" class="breadcrumb-link breadcrumb-next-link">Контрактное производство</a></li>';
+              }
+              if ($metka == "марки") {
+                echo '<li class="breadcrumb-item"><a href="marks.html" class="breadcrumb-link breadcrumb-next-link">Собственные торговые марки</a></li>';
+              }
+              ?>
+              <?php
+              if ($metka == "блог") {
+                echo '<li class="breadcrumb-item"><a href="production.html" class="breadcrumb-link breadcrumb-next-link">Блог</a></li>';
+              }
+              ?>
+              <a href="<?php $link_breadcrumb; ?>" class="breadcrumb-link breadcrumb-next-link"><?= $page_title ?></a>
+            </ul>
           </div>
-          <!-- /.sliders-buttons -->
         </div>
-      </div>
-      <!-- /.container -->
     </header>
-    <!-- /.header -->
-
-    <?php include_once('template-parts/steps-block.php');?>
-
-    <?php $block_title = "контрактное производство"; include_once('template-parts/production-block.php');?>
-
-    <?php $block_title = "cобственные торговые марки"; include_once('template-parts/trademarks-block.php');?>
-
-    <?php include_once('template-parts/founder-block.php');?>
-
-    <?php include_once('template-parts/clients-block.php');?>
-
-    <?php include_once('template-parts/blog-block.php');?>
-
-    <?php include_once('footer.php');?>

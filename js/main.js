@@ -87,48 +87,22 @@ mMenuToggle.addEventListener('click', (event) => {
 });
 
 
-/* функции добавляющие элемент списка */
-const addBreadcrumbAbout = (event) => {
-  listContacts.insertAdjacentHTML('beforeend', '<a href="about.html" class="breadcrumb-link breadcrumb-next-link">О компании</a>');
-  listContacts.insertAdjacentHTML('beforebegin', '<h1 class="header-title header-title-all">о компании</h1>');
-}
+// const addBreadcrumbAutohim = (event) => {
+  
+//   listContacts.insertAdjacentHTML('beforeend', '<a href="autohim.html" class="breadcrumb-link breadcrumb-next-link">Автомобильная химия</a>');
+//   listContacts.insertAdjacentHTML('beforebegin', '<h1 class="header-title header-title-all">Автомобильная химия</h1>');
+//   //listContacts.insertAdjacentHTML('beforebegin', '<img class="avto-him-header-image" src="img/avto-him.png" alt="автомобильная химия"></img>');
+// }
 
-const addBreadcrumbProduction = (event) => {
-  listContacts.insertAdjacentHTML('beforeend', '<a href="production.html" class="breadcrumb-link breadcrumb-next-link">Контрактное производство</a>');
-  listContacts.insertAdjacentHTML('beforebegin', '<h1 class="header-title header-title-all">Контрактное производство</h1>');
-}
-
-
-const addBreadcrumbMarks = (event) => {
-  listContacts.insertAdjacentHTML('beforeend', '<a href="marks.html" class="breadcrumb-link breadcrumb-next-link">Собственные марки</a>');
-  listContacts.insertAdjacentHTML('beforebegin', '<h1 class="header-title header-title-all">Собственные марки</h1>');
-}
-
-const addBreadcrumbBlog = (event) => {
-  listContacts.insertAdjacentHTML('beforeend', '<a href="news.html" class="breadcrumb-link breadcrumb-next-link">Блог</a>');
-  listContacts.insertAdjacentHTML('beforebegin', '<h1 class="header-title header-title-all">Блог</h1>');
-}
-
-const addBreadcrumbContats = (event) => {
-  listContacts.insertAdjacentHTML('beforeend', '<a href="contacts.html" class="breadcrumb-link breadcrumb-next-link">Контакты</a>');
-  listContacts.insertAdjacentHTML('beforebegin', '<h1 class="header-title header-title-all">Контакты</h1>');
-}
-
-const addBreadcrumbAutohim = (event) => {
-  listContacts.insertAdjacentHTML('beforeend', '<a href="autohim.html" class="breadcrumb-link breadcrumb-next-link">Автомобильная химия</a>');
-  listContacts.insertAdjacentHTML('beforebegin', '<h1 class="header-title header-title-all">Автомобильная химия</h1>');
-  //listContacts.insertAdjacentHTML('beforebegin', '<img class="avto-him-header-image" src="img/avto-him.png" alt="автомобильная химия"></img>');
-}
-
-const addBreadcrumbAgTech = (event) => {
-  listContacts.insertAdjacentHTML('beforeend', '<a href="autohim.html" class="breadcrumb-link breadcrumb-next-link">Автохимия AG-Tech</a>');
-  listContacts.insertAdjacentHTML('beforebegin', '<h1 class="header-title header-title-all">Автохимия AG-Tech</h1>');
-  //listContacts.insertAdjacentHTML('beforebegin', '<img class="avto-him-header-image" src="img/avto-him.png" alt="автомобильная химия"></img>');
-}
+// const addBreadcrumbAgTech = (event) => {
+//   listContacts.insertAdjacentHTML('beforeend', '<a href="autohim.html" class="breadcrumb-link breadcrumb-next-link">Автохимия AG-Tech</a>');
+//   listContacts.insertAdjacentHTML('beforebegin', '<h1 class="header-title header-title-all">Автохимия AG-Tech</h1>');
+//   //listContacts.insertAdjacentHTML('beforebegin', '<img class="avto-him-header-image" src="img/avto-him.png" alt="автомобильная химия"></img>');
+// }
 
 const addBreadcrumbBlogModern = (event) => {
   listContacts.insertAdjacentHTML('beforeend', '<a href="autohim.html" class="breadcrumb-link breadcrumb-next-link breadcrumb-last-link">Современная методология разработки одухотворила всех причастных</a>');
-  listContacts.insertAdjacentHTML('beforebegin', '<h1 class="header-title header-title-all header-title-all-fix">Современная методология разработки одухотворила всех причастных</h1>');
+  
   headerBackground();
 }
 

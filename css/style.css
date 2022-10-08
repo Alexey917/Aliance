@@ -1353,6 +1353,10 @@ body {
   text-decoration: none;
 }
 
+.section-contracts {
+  margin-top: 9.375rem;
+}
+
 @media (max-width: 1700px) {    
   html{
     font-size: 14px;

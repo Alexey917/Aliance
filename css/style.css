@@ -1343,6 +1343,16 @@ body {
   font-size: 0.9rem;
 }
 
+.thanks {
+  width: 22.5rem;
+  height: 19.375rem;
+  margin-bottom: 1.875rem;
+}
+
+.modal-back {
+  text-decoration: none;
+}
+
 @media (max-width: 1700px) {    
   html{
     font-size: 14px;

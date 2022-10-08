@@ -282,17 +282,17 @@ modalButtons.forEach((button) => {
     /*определяем текущее открытое окно*/ 
     currentModal = document.querySelector(button.dataset.target);
     /*открываем текущее окно*/
-    // currentModal.classList.toggle("modal-is-open");
-    // /*назначаем диалоговое окно*/ 
-    // modalDialog = currentModal.querySelector(".modal-dialog");
-    // /*отслеживаем клик по окну и по пустым областям*/ 
-    // currentModal.addEventListener("click", (event) => {
-    //   /*если клик в пустую область (не диалог)*/ 
-    //   if(!event.composedPath().includes(modalDialog)) {
-    //     /*закрываем окно*/ 
-    //     currentModal.classList.remove("modal-is-open");
-    //   }
-    // });
+    currentModal.classList.toggle("modal-is-open");
+    /*назначаем диалоговое окно*/ 
+    modalDialog = currentModal.querySelector(".modal-dialog");
+    /*отслеживаем клик по окну и по пустым областям*/ 
+    currentModal.addEventListener("click", (event) => {
+      /*если клик в пустую область (не диалог)*/ 
+      if(!event.composedPath().includes(modalDialog)) {
+        /*закрываем окно*/ 
+        currentModal.classList.remove("modal-is-open");
+      }
+    });
   });
 });
 

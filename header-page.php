@@ -132,26 +132,26 @@
     </nav>
 
     <header class="header">
-        <div class="header-section">
+        <div class="header-section <?= $header_bg;?>">
           <div class="container">
             <div class="seporator"></div>
             <h1 class="header-title header-title-all  <?= $header_title_style;?> "><?= $page_title ?></h1>
             <ul class="breadcrumb">
-              <li class="breadcrumb-item"><a href="./" class="breadcrumb-link">Главная</a></li>
+              <li class="breadcrumb-item"><a href="./" class="breadcrumb-link <?= $link_style;?>">Главная</a></li>
               <?php
               if ($metka == "контрактное производство") {
-                echo '<li class="breadcrumb-item"><a href="production.html" class="breadcrumb-link breadcrumb-next-link">Контрактное производство</a></li>';
+                echo '<li class="breadcrumb-item"><a href="production.php" class="breadcrumb-link breadcrumb-next-link">Контрактное производство</a></li>';
               }
               if ($metka == "марки") {
-                echo '<li class="breadcrumb-item"><a href="marks.html" class="breadcrumb-link breadcrumb-next-link">Собственные торговые марки</a></li>';
+                echo '<li class="breadcrumb-item"><a href="marks.php" class="breadcrumb-link breadcrumb-next-link">Собственные торговые марки</a></li>';
               }
               ?>
               <?php
               if ($metka == "блог") {
-                echo '<li class="breadcrumb-item"><a href="production.html" class="breadcrumb-link breadcrumb-next-link">Блог</a></li>';
+                echo '<li class="breadcrumb-item"><a href="news.php" class="breadcrumb-link breadcrumb-next-link white-color-link breadcrumb-before-link">Блог</a></li>';
               }
               ?>
-              <a href="<?php $link_breadcrumb; ?>" class="breadcrumb-link breadcrumb-next-link"><?= $page_title ?></a>
+              <a href="<?= $link_breadcrumb; ?>" class="breadcrumb-link breadcrumb-next-link <?= $link_style;?> <?= $link_style_last;?>"><?= $page_title ?></a>
             </ul>
           </div>
         </div>

@@ -100,11 +100,11 @@ mMenuToggle.addEventListener('click', (event) => {
 //   //listContacts.insertAdjacentHTML('beforebegin', '<img class="avto-him-header-image" src="img/avto-him.png" alt="автомобильная химия"></img>');
 // }
 
-const addBreadcrumbBlogModern = (event) => {
-  listContacts.insertAdjacentHTML('beforeend', '<a href="autohim.html" class="breadcrumb-link breadcrumb-next-link breadcrumb-last-link">Современная методология разработки одухотворила всех причастных</a>');
+// const addBreadcrumbBlogModern = (event) => {
+//   listContacts.insertAdjacentHTML('beforeend', '<a href="autohim.html" class="breadcrumb-link breadcrumb-next-link breadcrumb-last-link">Современная методология разработки одухотворила всех причастных</a>');
   
-  headerBackground();
-}
+//   headerBackground();
+// }
 
 /* условия для добавления списков */
 const headerCondition = (event) => {
@@ -136,11 +136,11 @@ const headerCondition = (event) => {
     addBreadcrumbAgTech();
   }
   
-  if (blogModern) {
-    addBreadcrumbBlogModern();
-    colorBreadcrumb.style.color = "#FFFFFF";
-    colorBreadcrumbNext.style.color = "#FFFFFF";
-  }
+  // if (blogModern) {
+  //   addBreadcrumbBlogModern();
+  //   colorBreadcrumb.style.color = "#FFFFFF";
+  //   colorBreadcrumbNext.style.color = "#FFFFFF";
+  // }
 }
 
 headerCondition();

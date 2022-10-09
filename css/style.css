@@ -1357,6 +1357,14 @@ body {
   margin-top: 9.375rem;
 }
 
+.breadcrumb-link.white-color-link {
+  color: #ffffff;
+}
+
+.breadcrumb-next-link.white-color-link {
+  color: #ffffff;
+}
+
 @media (max-width: 1700px) {    
   html{
     font-size: 14px;

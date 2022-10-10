@@ -11,6 +11,11 @@
          <div class="swiper-wrapper">
             <!-- Slides -->
             <a href="blogmodern.php" class="swiper-slide blog-card">
+            <picture>
+              <source type="image/webp" srcset="img/founder.webp">
+              <source type="image/jpeg" srcset="img/founder.jpg">
+              <img  class="blog-card-image" src="img/founder.jpg" alt="blog-2">
+            </picture>
               <img src="img/blog/blog-2.jpg" alt="blog-2" class="blog-card-image">
               <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
               <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>

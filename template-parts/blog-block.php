@@ -1,7 +1,10 @@
 <section class="section-blog">
       <div class="container">
-        <div class="seporator"></div>
-        <h2 class="section-title title-blog">Блог экспертов в области производства</h2>
+      <?php 
+        if (!empty($block_title)) {
+          echo '<div class="seporator"></div>' . '<h2 class="section-title title-blog">' . $block_title . '</h2>';
+        }
+        ?>
         <!-- Slider main container -->
         <div class="swiper blog-slider">
          <!-- Additional required wrapper -->

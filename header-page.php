@@ -136,6 +136,14 @@
           <div class="container">
             <div class="seporator"></div>
             <h1 class="header-title header-title-all  <?= $header_title_style;?> "><?= $page_title ?></h1>
+            <?php
+            if ($metka == "контрактное производство") {
+                echo '<img class="avto-him-header-image" src="img/avto-him.png" alt="автомобильная химия">';
+              }
+              if ($metka == "марки") {
+                echo '<img class="avto-him-header-image" src="img/avto-him.png" alt="автомобильная химия">';
+              }
+              ?>
             <ul class="breadcrumb">
               <li class="breadcrumb-item"><a href="./" class="breadcrumb-link <?= $link_style;?>">Главная</a></li>
               <?php

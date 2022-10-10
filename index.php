@@ -210,6 +210,6 @@
 
     <?php include_once('template-parts/clients-block.php');?>
 
-    <?php include_once('template-parts/blog-block.php');?>
+    <?php $block_title = "Блог экспертов в области производства"; include_once('template-parts/blog-block.php');?>
 
     <?php include_once('footer.php');?>

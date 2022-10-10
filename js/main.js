@@ -1,5 +1,4 @@
 const navbar = document.querySelector(".navbar");
-const headerSection = document.querySelector(".header-section");
 const logoLight = document.querySelector(".logo-light");
 const logo = document.querySelector(".logo");
 const mMenuToggle = document.querySelector(".mobile-menu-toggle");
@@ -28,10 +27,6 @@ const lightModeOff = (event) => {
 
 const changeNavHeight = (height) => {
   navbar.style.height = height;
-}
-
-const headerBackground = (event) => {
-  headerSection.classList.add("header-background");
 }
 
 const openMenu = (event) => {   //функция открывания меню
@@ -107,43 +102,43 @@ mMenuToggle.addEventListener('click', (event) => {
 // }
 
 /* условия для добавления списков */
-const headerCondition = (event) => {
-  if (company) {
-    addBreadcrumbAbout();
-  }  
+// const headerCondition = (event) => {
+//   if (company) {
+//     addBreadcrumbAbout();
+//   }  
   
-  if (production) {
-    addBreadcrumbProduction();
-  }
+//   if (production) {
+//     addBreadcrumbProduction();
+//   }
   
-  if (mark) {
-    addBreadcrumbMarks();
-  }
+//   if (mark) {
+//     addBreadcrumbMarks();
+//   }
   
-  if (newsBlog) {
-    addBreadcrumbBlog();
-  }
+//   if (newsBlog) {
+//     addBreadcrumbBlog();
+//   }
   
-  if (contact) {
-    addBreadcrumbContats();
-  }
+//   if (contact) {
+//     addBreadcrumbContats();
+//   }
   
-  if (autohim) {
-    addBreadcrumbAutohim();
-  }
+//   if (autohim) {
+//     addBreadcrumbAutohim();
+//   }
   
-  if (agTech) {
-    addBreadcrumbAgTech();
-  }
+//   if (agTech) {
+//     addBreadcrumbAgTech();
+//   }
   
   // if (blogModern) {
   //   addBreadcrumbBlogModern();
   //   colorBreadcrumb.style.color = "#FFFFFF";
   //   colorBreadcrumbNext.style.color = "#FFFFFF";
   // }
-}
+//}
 
-headerCondition();
+//headerCondition();
 
 /* слайдер с шагами */ 
 const swiper = new Swiper('#swiper', {
@@ -300,8 +295,13 @@ const forms = document.querySelectorAll("form");  //собираем все фо
       errorMessage: "Укажите имя",
     },
     {
+      rule: 'minLength',
+      value: 2,
+      errorMessage: "Мало букав",
+    },
+    {
       rule: 'maxLength',
-      value: 50,
+      value: 20,
       errorMessage: "Много букав",
     },
   ])

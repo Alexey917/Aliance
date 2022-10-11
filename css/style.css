@@ -12,6 +12,7 @@
 
 body {
   font-family: 'Noto Sans', sans-serif;
+  font-display: swap;
 }
 
 .mobile-menu {

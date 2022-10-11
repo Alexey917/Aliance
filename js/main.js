@@ -81,28 +81,6 @@ mMenuToggle.addEventListener('click', (event) => {
   }
 });
 
-
-// const addBreadcrumbAutohim = (event) => {
-  
-//   listContacts.insertAdjacentHTML('beforeend', '<a href="autohim.html" class="breadcrumb-link breadcrumb-next-link">Автомобильная химия</a>');
-//   listContacts.insertAdjacentHTML('beforebegin', '<h1 class="header-title header-title-all">Автомобильная химия</h1>');
-//   //listContacts.insertAdjacentHTML('beforebegin', '<img class="avto-him-header-image" src="img/avto-him.png" alt="автомобильная химия"></img>');
-// }
-
-// const addBreadcrumbAgTech = (event) => {
-//   listContacts.insertAdjacentHTML('beforeend', '<a href="autohim.html" class="breadcrumb-link breadcrumb-next-link">Автохимия AG-Tech</a>');
-//   listContacts.insertAdjacentHTML('beforebegin', '<h1 class="header-title header-title-all">Автохимия AG-Tech</h1>');
-//   //listContacts.insertAdjacentHTML('beforebegin', '<img class="avto-him-header-image" src="img/avto-him.png" alt="автомобильная химия"></img>');
-// }
-
-// const addBreadcrumbBlogModern = (event) => {
-//   listContacts.insertAdjacentHTML('beforeend', '<a href="autohim.html" class="breadcrumb-link breadcrumb-next-link breadcrumb-last-link">Современная методология разработки одухотворила всех причастных</a>');
-  
-//   headerBackground();
-// }
-
-/* условия для добавления списков */
-// const headerCondition = (event) => {
 //   if (company) {
 //     addBreadcrumbAbout();
 //   }  
@@ -264,15 +242,6 @@ modalButtons.forEach((button) => {
     });
   });
 });
-
-/*document.addEventListener("click", (event) => {
-  if(event.target.dataset.toggle == "modal" || 
-  event.target.parentNode.dataset.toggle == "modal" || 
-  !event.composedPath().includes(modalDialog) && currentModal.classList.contains("modal-is-open")) { //если элемент содержит модал или родитель содержит модал, или содержит ли путь до элемента модал диалог, то ....
-    event.preventDefault();
-    currentModal.classList.toggle("modal-is-open");
-  }
-});*/
 
 /*ловим событие нажатия на кнопку*/ 
 document.addEventListener("keyup", (event) => {

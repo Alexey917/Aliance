@@ -151,7 +151,7 @@ body {
 }
 
 .header-background {
-  background-image: url('../img/blog/blog-1.jpg');
+  background-image: url('../img/blog/blog-1.webp');
   background-size: cover; 
   background-repeat: no-repeat; 
   background-position: center;
@@ -159,7 +159,7 @@ body {
 
 .header-image {
   position: relative;
-  background-image: url('../img/header-bg.jpg');
+  background-image: url('../img/header-bg.webp');
   background-size: cover; 
   background-repeat: no-repeat; 
   background-position: center bottom -3.15rem;

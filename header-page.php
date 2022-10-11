@@ -138,10 +138,21 @@
             <h1 class="header-title header-title-all  <?= $header_title_style;?> "><?= $page_title ?></h1>
             <?php
             if ($metka == "контрактное производство") {
-                echo '<img class="avto-him-header-image" src="img/avto-him.png" alt="автомобильная химия">';
+                echo 
+                '<picture>
+                  <source type="image/webp" srcset="img/avto-him.webp">
+                  <source type="image/jpeg" srcset="img/avto-him.png">
+                  <img class="avto-him-header-image" src="img/avto-him.png" alt="автомобильная химия">
+                </picture>';
+                
               }
               if ($metka == "марки") {
-                echo '<img class="avto-him-header-image" src="img/avto-him.png" alt="автомобильная химия">';
+                echo 
+                '<picture>
+                  <source type="image/webp" srcset="img/avto-him.webp">
+                  <source type="image/jpeg" srcset="img/avto-him.png">
+                  <img class="avto-him-header-image" src="img/avto-him.png" alt="автомобильная химия">
+                </picture>';
               }
               ?>
             <ul class="breadcrumb">

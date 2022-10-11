@@ -72,15 +72,69 @@
             </ul>
           </div>
           <div class="clients-images-list">
-            <a href="#" class="client-img-item"><img src="img/client.png" alt="client" class="clients-img"></a>
-            <a href="#" class="client-img-item"><img src="img/client.png" alt="client" class="clients-img"></a>
-            <a href="#" class="client-img-item"><img src="img/client.png" alt="client" class="clients-img"></a>
-            <a href="#" class="client-img-item"><img src="img/client.png" alt="client" class="clients-img"></a>
-            <a href="#" class="client-img-item"><img src="img/client.png" alt="client" class="clients-img"></a>
-            <a href="#" class="client-img-item"><img src="img/client.png" alt="client" class="clients-img"></a>
-            <a href="#" class="client-img-item"><img src="img/client.png" alt="client" class="clients-img"></a>
-            <a href="#" class="client-img-item"><img src="img/client.png" alt="client" class="clients-img"></a>
-            <a href="#" class="client-img-item ninth-item"><img src="img/client.png" alt="client" class="clients-img"></a>
+            <a href="#" class="client-img-item">
+              <picture>
+                <source type="image/webp" srcset="img/client.webp">
+                <source type="image/jpeg" srcset="img/client.png">
+                <img  class="clients-img" src="img/client.png"   alt="client">
+              </picture>
+            </a>
+            <a href="#" class="client-img-item">
+              <picture>
+                <source type="image/webp" srcset="img/client.webp">
+                <source type="image/jpeg" srcset="img/client.png">
+                <img  class="clients-img" src="img/client.png"   alt="client">
+              </picture>
+            </a>
+            <a href="#" class="client-img-item">
+              <picture>
+                <source type="image/webp" srcset="img/client.webp">
+                <source type="image/jpeg" srcset="img/client.png">
+                <img  class="clients-img" src="img/client.png"   alt="client">
+              </picture>
+            </a>
+            <a href="#" class="client-img-item">
+              <picture>
+                <source type="image/webp" srcset="img/client.webp">
+                <source type="image/jpeg" srcset="img/client.png">
+                <img  class="clients-img" src="img/client.png"   alt="client">
+              </picture>
+            </a>
+            <a href="#" class="client-img-item">
+              <picture>
+                <source type="image/webp" srcset="img/client.webp">
+                <source type="image/jpeg" srcset="img/client.png">
+                <img  class="clients-img" src="img/client.png"   alt="client">
+              </picture>
+            </a>
+            <a href="#" class="client-img-item">
+              <picture>
+                <source type="image/webp" srcset="img/client.webp">
+                <source type="image/jpeg" srcset="img/client.png">
+                <img  class="clients-img" src="img/client.png"   alt="client">
+              </picture>
+            </a>
+            <a href="#" class="client-img-item">
+              <picture>
+                <source type="image/webp" srcset="img/client.webp">
+                <source type="image/jpeg" srcset="img/client.png">
+                <img  class="clients-img" src="img/client.png"   alt="client">
+              </picture>
+            </a>
+            <a href="#" class="client-img-item">
+              <picture>
+                <source type="image/webp" srcset="img/client.webp">
+                <source type="image/jpeg" srcset="img/client.png">
+                <img  class="clients-img" src="img/client.png"   alt="client">
+              </picture>
+            </a>
+            <a href="#" class="client-img-item ninth-item">
+              <picture>
+                <source type="image/webp" srcset="img/client.webp">
+                <source type="image/jpeg" srcset="img/client.png">
+                <img  class="clients-img" src="img/client.png"   alt="client">
+              </picture>
+            </a>
           </div>
         </div>
         <!-- /.clients-wrapper -->

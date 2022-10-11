@@ -12,21 +12,28 @@
             <!-- Slides -->
             <a href="blogmodern.php" class="swiper-slide blog-card">
             <picture>
-              <source type="image/webp" srcset="img/founder.webp">
-              <source type="image/jpeg" srcset="img/founder.jpg">
-              <img  class="blog-card-image" src="img/founder.jpg" alt="blog-2">
+              <source type="image/webp" srcset="img/blog/blog-2.webp">
+              <source type="image/jpeg" srcset="img/blog/blog-2.jpg">
+              <img  class="blog-card-image" src="img/img/blog/blog-2.jpg" alt="blog-2">
             </picture>
-              <img src="img/blog/blog-2.jpg" alt="blog-2" class="blog-card-image">
               <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
               <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
             </a>
             <a href="#" class="swiper-slide blog-card">
-              <img src="img/blog/blog-1.jpg" alt="blog-1" class="blog-card-image">
+            <picture>
+              <source type="image/webp" srcset="img/blog/blog-1.webp">
+              <source type="image/jpeg" srcset="img/blog/blog-1.jpg">
+              <img  class="blog-card-image" src="img/blog/blog-1.jpg" alt="blog-1">
+            </picture>
               <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
               <p class="blog-card-text">Сложно сказать, почему элементы политического процесса функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
             </a>
             <a href="#" class="swiper-slide blog-card">
-              <img src="img/blog/blog-1.jpg" alt="blog-1" class="blog-card-image">
+            <picture>
+              <source type="image/webp" srcset="img/blog/blog-1.webp">
+              <source type="image/jpeg" srcset="img/blog/blog-1.jpg">
+              <img  class="blog-card-image" src="img/blog/blog-1.jpg" alt="blog-1">
+            </picture>
               <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
               <p class="blog-card-text">Сложно сказать, почему элементы политического процесса функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
             </a>

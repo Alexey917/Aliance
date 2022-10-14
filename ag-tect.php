@@ -1,5 +1,5 @@
 <?php 
-$page_title = 'Автомобильная химия AG-Tech';
+$page_title = 'Автохимия AG-Tech';
 $metka = 'марки';
 $link_breadcrumb = 'ag-tect.php';
 include_once('header-page.php');?>

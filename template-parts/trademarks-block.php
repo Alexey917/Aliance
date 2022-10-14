@@ -1,4 +1,4 @@
-<section class="section-trade-marks">
+<section class="section-trade-marks <?= $section_class_trademarks;?>">
       <div class="container">
         <?php 
         if (!empty($block_title)) {

@@ -3,7 +3,7 @@
         <?php 
         if (!empty($block_title)) {
           echo '<div class="seporator"></div>' . '<h2 class="section-title title-marks">' . $block_title . '</h2>'
-          . '<h2 class="section-title title-marks-without">' . $block_title . '</h2>';
+          . '<h2 class="section-title title-marks-without">' . $block_title_mobile . '</h2>';
         }
         ?>
         <div class="marks">

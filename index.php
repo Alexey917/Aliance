@@ -206,7 +206,7 @@
 
     <?php $block_title = "контрактное производство"; include_once('template-parts/production-block.php');?>
 
-    <?php $block_title = "cобственные торговые марки"; include_once('template-parts/trademarks-block.php');?>
+    <?php $block_title = "cобственные торговые марки";  $block_title_mobile = "cобственные марки"; include_once('template-parts/trademarks-block.php');?>
 
     <?php include_once('template-parts/founder-block.php');?>
 

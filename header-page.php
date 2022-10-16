@@ -52,7 +52,7 @@
             </li>
           </ul>
         </li>
-        <li class="mobile-menu-nav-item"><a href="newsphp" class="mobile-menu-nav-link">Новости</a></li>
+        <li class="mobile-menu-nav-item"><a href="news.php" class="mobile-menu-nav-link">Новости</a></li>
         <li class="mobile-menu-nav-item"><a href="contacts.php" class="mobile-menu-nav-link">Контакты</a></li>
       </ul>
 

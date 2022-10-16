@@ -1370,7 +1370,7 @@ body {
 }
 
 .section-contracts {
-  margin-top: 6.2rem;
+  margin-top: 4.5rem;
 }
 
 .breadcrumb-link.white-color-link {
@@ -2249,7 +2249,7 @@ body {
   }
 
   .section-trade-marks {
-    margin-top: 8.1rem;
+    margin-top: 4.4rem;
   }
 
   .section-founder {
@@ -2616,6 +2616,39 @@ body {
   .modal-notify-text {
     margin-top: -1.4rem;
     font-size: 1rem;
+  }
+
+  .header-section {
+    padding-top: 4rem;
+  }
+
+  .header-title.header-title-all {
+    margin-bottom: 2rem;
+    font-weight: 700;
+    font-size: 3.9rem;
+  }
+
+  .breadcrumb-next-link::before {
+    width: 1rem;
+  }
+
+  .breadcrumb {
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    margin-left: -0.3rem;
+    padding-bottom: 4.125rem;
+  }
+
+  .breadcrumb-item {
+    flex-shrink: 0;
+  }
+
+  .breadcrumb-link {
+    font-size: 12px;
+  }
+
+  .breadcrumb-next-link::before {
+    height: 0.01rem
   }
 
 

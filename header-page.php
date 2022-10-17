@@ -159,18 +159,18 @@
               <li class="breadcrumb-item"><a href="./" class="breadcrumb-link <?= $link_style;?>">Главная</a></li>
               <?php
               if ($metka == "контрактное производство") {
-                echo '<li class="breadcrumb-item"><a href="production.php" class="breadcrumb-link breadcrumb-next-link">Контрактное производство</a></li>';
+                echo '<li class="breadcrumb-item"><a href="production.php" class="breadcrumb-link breadcrumb-next-link bread-last-2">Контрактное производство</a></li>';
               }
               if ($metka == "марки") {
-                echo '<li class="breadcrumb-item"><a href="marks.php" class="breadcrumb-link breadcrumb-next-link">Собственные торговые марки</a></li>';
+                echo '<li class="breadcrumb-item"><a href="marks.php" class="breadcrumb-link breadcrumb-next-link bread-last-2">Собственные торговые марки</a></li>';
               }
               ?>
               <?php
               if ($metka == "блог") {
-                echo '<li class="breadcrumb-item"><a href="news.php" class="breadcrumb-link breadcrumb-next-link white-color-link breadcrumb-before-link">Блог</a></li>';
+                echo '<li class="breadcrumb-item"><a href="news.php" class="breadcrumb-link breadcrumb-next-link white-color-link breadcrumb-before-link bread-last">Блог</a></li>';
               }
               ?>
-              <a href="<?= $link_breadcrumb; ?>" class="breadcrumb-link breadcrumb-next-link <?= $link_style;?> <?= $link_style_last;?>"><?= $page_title ?></a>
+              <a href="<?= $link_breadcrumb; ?>" class="breadcrumb-link breadcrumb-next-link <?= $link_style;?> <?= $link_style_last;?> <?= $bread_last;?> "><?= $page_title ?></a>
             </ul>
           </div>
         </div>

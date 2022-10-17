@@ -4,17 +4,16 @@ const logo = document.querySelector(".logo");
 const mMenuToggle = document.querySelector(".mobile-menu-toggle");
 const menu = document.querySelector(".mobile-menu");
 const isFront = document.body.classList.contains("front-page");
-const company = document.body.classList.contains("about-company");
-const production = document.body.classList.contains("production");
-const mark = document.body.classList.contains("own-marks");
-const newsBlog = document.body.classList.contains("news");
-const contact = document.body.classList.contains("contacts");
-const agTech = document.body.classList.contains("agtech");
-const autohim = document.body.classList.contains("autohim");
-const blogModern = document.body.classList.contains("blogmodern");
-const listContacts = document.querySelector(".breadcrumb");
-const colorBreadcrumb = document.querySelector(".breadcrumb-link");
-const colorBreadcrumbNext = document.querySelector(".breadcrumb-next-link");
+//const production = document.body.classList.contains("production");
+// const mark = document.body.classList.contains("own-marks");
+// const newsBlog = document.body.classList.contains("news");
+// const contact = document.body.classList.contains("contacts");
+// const agTech = document.body.classList.contains("agtech");
+// const autohim = document.body.classList.contains("autohim");
+// const blogModern = document.body.classList.contains("blogmodern");
+// const listContacts = document.querySelector(".breadcrumb");
+
+// const colorBreadcrumbNext = document.querySelector(".breadcrumb-next-link");
 
 
 const lightModeOn = (event) => {
@@ -81,42 +80,6 @@ mMenuToggle.addEventListener('click', (event) => {
   }
 });
 
-//   if (company) {
-//     addBreadcrumbAbout();
-//   }  
-  
-//   if (production) {
-//     addBreadcrumbProduction();
-//   }
-  
-//   if (mark) {
-//     addBreadcrumbMarks();
-//   }
-  
-//   if (newsBlog) {
-//     addBreadcrumbBlog();
-//   }
-  
-//   if (contact) {
-//     addBreadcrumbContats();
-//   }
-  
-//   if (autohim) {
-//     addBreadcrumbAutohim();
-//   }
-  
-//   if (agTech) {
-//     addBreadcrumbAgTech();
-//   }
-  
-  // if (blogModern) {
-  //   addBreadcrumbBlogModern();
-  //   colorBreadcrumb.style.color = "#FFFFFF";
-  //   colorBreadcrumbNext.style.color = "#FFFFFF";
-  // }
-//}
-
-//headerCondition();
 
 /* слайдер с шагами */ 
 const swiper = new Swiper('#swiper', {

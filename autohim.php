@@ -2,6 +2,7 @@
 $page_title = 'Автомобильная химия';
 $metka = "контрактное производство";
 $link_breadcrumb = 'autohim.php';
+$bread_last = 'last';
 include_once('header-page.php');?>
 
 

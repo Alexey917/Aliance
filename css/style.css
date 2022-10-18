@@ -404,9 +404,9 @@ body {
 }
 
 .header-features-text {
-  /*display: block;*/
-  /*max-width: 200px;*/
-  /*overflow-wrap: break-word;*/
+  display: block;
+  max-width: 200px;
+  overflow-wrap: break-word;
   margin-top: 1.3125rem;
   margin-bottom: 0;
 
@@ -1768,6 +1768,14 @@ body {
   .footer-phone, .footer-info, .footer-info-social{
     margin-left: 0;
   }
+
+  .avto-him-header-image {
+    right: 3.6rem;
+  }
+
+  .cta-form {
+    margin-right: 0;
+  }
 }
 
 @media (max-width: 900px) {
@@ -1916,7 +1924,7 @@ body {
 
   .cta-form {
     margin-right: 0;
-    max-width: 37.5rem;
+    max-width: 34.5rem;
   }
 
   .input-group-wrapper {
@@ -2036,6 +2044,27 @@ body {
 
   .breadcrumb-last-link::before {
     display: none;
+  }
+
+  .section-title.title-founder {
+    margin-bottom: 3rem;
+  }
+
+  .header-features-item {
+    padding: 2rem 2.5rem;
+  }
+
+  .blog-card-title {
+    font-size: 18px;
+  }
+
+  .blog-card-text {
+    font-size: 14px;
+  }
+
+  .cta-form-wrapper {
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -2161,6 +2190,7 @@ body {
   .header-features-text {
     margin-top: 1.75rem;
     font-size: 14px;
+    overflow-wrap: normal;
   }
 
   .sliders-buttons {
@@ -2308,7 +2338,7 @@ body {
   }
 
   .section-trade-marks {
-    margin-top: 4.4rem;
+    margin-top: 8rem;
   }
 
   .section-founder {
@@ -2764,7 +2794,11 @@ body {
     padding-left: 1rem;
   }
 
-  
+  .section-title.title-founder {
+    margin-bottom: 2.3rem;
+  }
+
+
 
 }
 

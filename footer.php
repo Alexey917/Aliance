@@ -1,12 +1,13 @@
-<section class="cta">
+    <section class="cta">
       <div class="bg-grey section-cta">
         <picture>
           <source type="image/webp" srcset="img/cta.webp">
           <source type="image/jpeg" srcset="img/cta.png">
           <img  class="cta-img" src="img/cta.png" alt="call to action">
         </picture>
-        <div class="cta-form-wrapper container">
-          <form action="handler.php" method="POST" class="cta-form">
+        <div class="container">
+          <div class="cta-form-wrapper">
+            <form action="handler.php" method="POST" class="cta-form">
             <h2 class="section-title cta-form-title">Хотите сотрудничать?</h2>
             <p class="cta-form-text">Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!</p>
             <div class="input-group-wrapper">
@@ -31,7 +32,8 @@
               </div>
             </div>
             <!-- /.cta-form-footer -->
-          </form>
+            </form>
+          </div>
         </div>
         <!-- /.cta-form-wrapper -->
       </div>
@@ -40,9 +42,11 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-top">
-          <svg class="logo-svg footer-logo">
-            <use href="img/sprite.svg#logo"></use>
-          </svg>
+          <a class="footer-logo" href="./">
+            <svg class="logo-svg footer-logo">
+              <use href="img/sprite.svg#logo"></use>
+            </svg>
+        </a>
           <a href="tel:+74996861014" class="footer-phone">+7 (499) 686-10-14</a>
           <div class="footer-info">
             <svg class="phone-icon" width="24" height="24">

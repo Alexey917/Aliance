@@ -4,16 +4,6 @@ const logo = document.querySelector(".logo");
 const mMenuToggle = document.querySelector(".mobile-menu-toggle");
 const menu = document.querySelector(".mobile-menu");
 const isFront = document.body.classList.contains("front-page");
-//const production = document.body.classList.contains("production");
-// const mark = document.body.classList.contains("own-marks");
-// const newsBlog = document.body.classList.contains("news");
-// const contact = document.body.classList.contains("contacts");
-// const agTech = document.body.classList.contains("agtech");
-// const autohim = document.body.classList.contains("autohim");
-// const blogModern = document.body.classList.contains("blogmodern");
-// const listContacts = document.querySelector(".breadcrumb");
-
-// const colorBreadcrumbNext = document.querySelector(".breadcrumb-next-link");
 
 
 const lightModeOn = (event) => {
@@ -85,6 +75,7 @@ mMenuToggle.addEventListener('click', (event) => {
 const swiper = new Swiper('#swiper', {
   speed: 400,
   slidesPerView: 1,
+  loop: true,
   navigation: {
     nextEl: '.slider-button-next',
     prevEl: '.slider-button-prev',

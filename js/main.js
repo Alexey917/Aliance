@@ -190,6 +190,57 @@ const alianceProduction = new Swiper('#aliance-production-slider', {
   }
 });
 
+const experts = new Swiper('#experts', {
+  speed: 400,
+  slidesPerView: 1,
+  loop: true,
+  navigation: {
+    nextEl: '.slider-button-next',
+    prevEl: '.slider-button-prev',
+  },
+   // Responsive breakpoints
+   breakpoints: {
+  // when window width is >= 412px
+   375: {
+    slidesPerView: 2,
+  },
+   // when window width is >= 412px
+   412: {
+     slidesPerView: 1,
+     width: 370,
+   }, 
+   // when window width is >= 414px
+    414: {
+      slidesPerView: 1,
+      width: 372,
+    }, 
+    // when window width is >= 576px
+    576: {
+      slidesPerView: 2,
+      width: 480,
+    },
+    // when window width is >= 768px
+    768: {
+      slidesPerView: 3,
+      width: 720,
+    },
+    // when window width is >= 900px
+    900: {
+      slidesPerView: 3,
+      width: 840,
+    },
+    // when window width is >= 1080px
+    1080: {
+      slidesPerView: 4,
+      width: 909,
+    },
+    // when window width is >= 1260px
+    1260: {
+      slidesPerView: 5,
+    }
+  }
+});
+
 let currentModal;  //текущее модальное окно
 let modalDialog;   //белое диалоговое окно
 let alertModal = document.querySelector("#alert-modal"); //окно с благодарностью

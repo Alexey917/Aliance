@@ -1509,6 +1509,44 @@ body {
   display: none;
 }
 
+.section-seo {
+   margin-top: 6.25rem;
+}
+
+.title-seo {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.75rem;
+  line-height: 160%;
+  color: #292d33;
+}
+
+.seo-text {
+  margin-bottom: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #828a99;
+}
+
+.load-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: .9375rem;
+}
+
+.seo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #5c8ee6;
+}
+
 @media (max-width: 1700px) {    
   html{
     font-size: 14px;

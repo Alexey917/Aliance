@@ -171,6 +171,25 @@ const blog = new Swiper('.blog-slider', {
   }
 });
 
+const alianceProduction = new Swiper('#aliance-production-slider', {
+  speed: 400,
+  slidesPerView: 2,
+  spaceBetween: 30,
+  loop: true,
+  navigation: {
+    nextEl: '.blog-button-next',
+    prevEl: '.blog-button-prev',
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+    },
+    1080: {
+      slidesPerView: 2,
+    }
+  }
+});
+
 let currentModal;  //текущее модальное окно
 let modalDialog;   //белое диалоговое окно
 let alertModal = document.querySelector("#alert-modal"); //окно с благодарностью

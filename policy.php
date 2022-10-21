@@ -1,5 +1,5 @@
 <?php 
-$page_title = 'Политика конфиденциальноти';
+$page_title = 'Политика конфиденциальноcти';
 $link_breadcrumb = 'news.php';
 include_once('header-page.php');?>
 

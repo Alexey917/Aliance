@@ -1,4 +1,4 @@
-<section class="section-aliance-production">
+<section class="section-aliance-production <?= $section_aliance_production_class;?>">
   <div class="container">
     <div class="aliance-production-content-wrapper">
       <div class="seporator"></div>

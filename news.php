@@ -32,8 +32,8 @@ include_once('header-page.php');?>
           <source type="image/jpeg" srcset="img/blog/blog-2.jpg">
           <img  class="blog-card-image" src="img/blog/blog-2.jpg" alt="blog-2">
         </picture>
-        <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
-        <p class="blog-card-text">Сложно сказать, почему элементы политического процесса функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
+        <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
+        <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
       </a>
 
       <a href="blogmodern.php" class="blog-card blog-card-news">
@@ -42,8 +42,8 @@ include_once('header-page.php');?>
           <source type="image/jpeg" srcset="img/blog/blog-1.jpg">
           <img  class="blog-card-image" src="img/img/blog/blog-1.jpg" alt="blog-1">
         </picture>
-        <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
-        <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
+        <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
+        <p class="blog-card-text">Сложно сказать, почему элементы политического процесса функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
       </a>
 
       <a href="blogmodern.php" class="blog-card blog-card-news">
@@ -72,8 +72,8 @@ include_once('header-page.php');?>
           <source type="image/jpeg" srcset="img/blog/blog-2.jpg">
           <img  class="blog-card-image" src="img/blog/blog-2.jpg" alt="blog-2">
         </picture>
-        <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
-        <p class="blog-card-text">Сложно сказать, почему элементы политического процесса функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
+        <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
+        <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
       </a>
 
       <a href="blogmodern.php" class="blog-card blog-card-news">
@@ -82,8 +82,8 @@ include_once('header-page.php');?>
           <source type="image/jpeg" srcset="img/blog/blog-1.jpg">
           <img  class="blog-card-image" src="img/img/blog/blog-1.jpg" alt="blog-1">
         </picture>
-        <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
-        <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
+        <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
+        <p class="blog-card-text">Сложно сказать, почему элементы политического процесса функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
       </a>
 
       <a href="blogmodern.php" class="blog-card blog-card-news">

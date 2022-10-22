@@ -2,6 +2,7 @@
 $page_title = 'О компании';
 $link_breadcrumb = 'about.php';
 $founder_class = 'founder-our-production';
+$clients_class = 'clients-our-production';
 include_once('header-page.php');?>
 
 <?php include_once('template-parts/experts-block.php');?>

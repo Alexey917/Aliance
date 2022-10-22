@@ -1,4 +1,4 @@
-<section class="section-founder">
+<section class="section-founder <?= $founder_class;?>">
   <picture>
     <source type="image/webp" srcset="img/founder.webp">
     <source type="image/jpeg" srcset="img/founder.jpg">

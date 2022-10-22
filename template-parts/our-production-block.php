@@ -2,7 +2,7 @@
   <div class="container">
     <div class="our-production-content-wrapper">
       <div class="our-production-content">
-        <div class="seporator"></div>
+        <div class="seporator seporator-our-production"></div>
         <h2 class="section-title title-our-production">Наше производство</h2>
         <p class="our-production-text">Предварительные выводы неутешительны: разбавленное изрядной долей эмпатии, рациональное мышление обеспечивает широкому кругу (специалистов) участие в формировании глубокомысленных рассуждений. Но граница обучения кадров создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса кластеризации усилий.</p>
         <p class="our-production-text">
@@ -31,7 +31,7 @@
               <svg class="client-logo">
                 <use href="img/sprite.svg#cosmetic-mobile"></use>
               </svg>
-              Дезинфицирующие средства
+              Пищевые аэрозоли
           </li>
           <li class="clients-list-item cosmetic">
               <svg class="client-logo cosmetic-logo">

@@ -174,7 +174,7 @@ const blog = new Swiper('.blog-slider', {
 const alianceProduction = new Swiper('#aliance-production-slider', {
   speed: 400,
   slidesPerView: 2,
-  spaceBetween: 30,
+  
   loop: true,
   navigation: {
     nextEl: '.blog-button-next',
@@ -185,7 +185,7 @@ const alianceProduction = new Swiper('#aliance-production-slider', {
       slidesPerView: 1,
     },
     1080: {
-      slidesPerView: 2,
+      slidesPerView: 4,
     }
   }
 });

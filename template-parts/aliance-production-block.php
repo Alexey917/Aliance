@@ -13,28 +13,28 @@
          <!-- Additional required wrapper -->
          <div class="swiper-wrapper">
             <!-- Slides -->
-            <div class="swiper-slide blog-card  blog-without-before">
+            <div class="swiper-slide blog-card  blog-without-before" id="width-blog-card-slider">
               <picture>
                 <source type="image/webp" srcset="img/blog/blog-2.webp">
                 <source type="image/jpeg" srcset="img/blog/blog-2.jpg">
                 <img  class="blog-card-image" src="img/img/blog/blog-2.jpg" alt="blog-2">
               </picture>
             </div>
-            <div class="swiper-slide blog-card blog-without-before">
+            <div class="swiper-slide blog-card blog-without-before" id="width-blog-card-slider">
               <picture>
                 <source type="image/webp" srcset="img/blog/blog-1.webp">
                 <source type="image/jpeg" srcset="img/blog/blog-1.jpg">
                 <img  class="blog-card-image" src="img/blog/blog-1.jpg" alt="blog-1">
               </picture>
             </div>
-            <div class="swiper-slide blog-card blog-without-before">
+            <div class="swiper-slide blog-card blog-without-before" id="width-blog-card-slider">
               <picture>
                 <source type="image/webp" srcset="img/blog/blog-2.webp">
                 <source type="image/jpeg" srcset="img/blog/blog-2.jpg">
                 <img  class="blog-card-image" src="img/img/blog/blog-2.jpg" alt="blog-2">
               </picture>
             </div>
-            <div class="swiper-slide blog-card blog-without-before">
+            <div class="swiper-slide blog-card blog-without-before" id="width-blog-card-slider">
               <picture>
                 <source type="image/webp" srcset="img/blog/blog-1.webp">
                 <source type="image/jpeg" srcset="img/blog/blog-1.jpg">

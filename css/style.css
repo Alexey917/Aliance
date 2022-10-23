@@ -1683,6 +1683,10 @@ body {
   margin-top: -2.75rem;
 }
 
+.blog-card-title-mobile {
+  display: none;
+}
+
 @media (max-width: 1700px) {    
   html{
     font-size: 14px;
@@ -1926,6 +1930,17 @@ body {
   .modal-close {
     margin-top: -1rem;
   }
+
+  .blog-cards-content-wrapper {
+    columns: 1 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .blog-card-news:not(:last-child) {
+    margin-right: 0;
+  }
 }
 
 @media (max-width: 1080px) {
@@ -2110,7 +2125,7 @@ body {
 
   .footer-menu-column {
     columns: 1 auto;
-    min-width: 30rem;
+    min-width: 20rem;
   }
 
   .footer-top {
@@ -2295,6 +2310,10 @@ body {
   .header-background {
     background-position: center;
   }
+
+  .blog-card-text-news {
+    display: none;
+  }
 }
 
 @media (max-width: 576px) {
@@ -2425,6 +2444,14 @@ body {
 
   .header-title.header-title-all {
     font-size: 4rem;
+  }
+
+  .blog-card-text-news {
+    font-size: 16px;
+  }
+
+  .blog-card-title-news {
+    font-size: 22px;
   }
 }
 
@@ -2922,6 +2949,7 @@ body {
   .footer-top {
     gap: 1.7rem;
     padding-bottom: 1.7rem;
+    padding-top: 3.525rem;
   }
 
   .footer-logo {
@@ -3158,7 +3186,96 @@ body {
     margin-bottom: 2.3rem;
   }
 
+  .header-title-all.header-title-all-policy {
+    overflow-wrap: break-word;
+    line-height: 126%;
+    width: 310px;
+    letter-spacing: 1px;
+  }
 
+  .section-policy {
+    margin-top: 4.25rem;
+    margin-bottom: 8.5rem;
+  } 
+  
+
+  .policy-text {
+    font-size: 1.157rem;
+    line-height: 157%;
+    margin-left: -0.3rem;
+  }
+
+  .policy-content {
+    width: 335px;
+  }
+
+  .policy-text-2 {
+    margin-top: 1.1rem;
+    width: 342px;
+  }
+
+  .policy-text-3 {
+    margin-top: -0.3rem;
+  }
+
+  .policy-text-4 {
+    width: 344px;
+    line-height: 160%;
+  }
+
+  .blog-cards-content-wrapper {
+    margin-top: 4.25rem;
+  }
+
+  .blog-card-title {
+    display: none;
+  }
+
+  .blog-card-title-mobile {
+    display: block;
+    font-size: 1.65rem;
+    line-height: 140%;
+    margin-top: 0;
+    margin-bottom: -0.375rem;
+    font-weight: 400;
+    color: #FFFFFF;
+  }
+
+  .blog-card-news {
+    margin-bottom: 1.1rem;
+    padding-top: 8rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .blog-news-2 {
+    margin-bottom: 1rem;
+  }
+
+  .blog-news-3,
+  .blog-news-4 {
+    margin-bottom: 0.9rem;
+  }
+
+  .blog-news-5 {
+    margin-bottom: 0.5rem;
+  }
+
+  .blog-news-6 {
+    margin-bottom: 0.5rem;
+  }
+
+  .next-pages {
+    margin-top: 3rem;
+    margin-right: 3rem;
+  }
+
+  .page-number {
+    margin-right: 0.7rem;
+  }
+
+  .page-number-link {
+    font-size: 14px;
+  }
 
 }
 

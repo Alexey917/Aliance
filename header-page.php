@@ -135,7 +135,7 @@
         <div class="header-section <?= $header_bg;?>">
           <div class="container">
             <div class="seporator"></div>
-            <h1 class="header-title header-title-all  <?= $header_title_style;?> "><?= $page_title ?></h1>
+            <h1 class="header-title header-title-all  <?= $header_title_style;?> <?= $page_title_perfect;?>"><?= $page_title;?></h1>
             <?php
             if ($metka == "контрактное производство") {
                 echo 

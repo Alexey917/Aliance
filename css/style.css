@@ -2443,7 +2443,7 @@ body {
   }
 
   .header-title.header-title-all {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 
   .blog-card-text-news {
@@ -2949,7 +2949,7 @@ body {
   .footer-top {
     gap: 1.7rem;
     padding-bottom: 1.7rem;
-    padding-top: 3.525rem;
+    padding-top: 3rem;
   }
 
   .footer-logo {
@@ -3227,7 +3227,7 @@ body {
     margin-top: 4.25rem;
   }
 
-  .blog-card-title {
+  .blog-card-news .blog-card-title {
     display: none;
   }
 
@@ -3277,6 +3277,73 @@ body {
     font-size: 14px;
   }
 
+  .header-title.contract-production-mobile {
+    margin-bottom: 2.3rem;
+  }
+
+  .section-contracts {
+    margin-top: 4.25rem;
+  }
+
+  .section-seo {
+    margin-top: 4rem;
+  }
+
+  .title-seo {
+    margin-bottom: -0.5rem;
+    margin-left: -0.2rem;
+    font-size: 1.65rem;
+  }
+
+  .seo-text {
+    margin-left: -0.2rem;
+    font-size: 1.3rem;
+    width: 344px;
+    letter-spacing: 0.2px;
+    line-height: 169%;
+  }
+
+  .seo-link {
+    font-size: 1.16rem;
+  }
+
+  .load-icon {
+    width: 1.8rem;
+    height: 2.5rem;
+    margin-right: 1.5rem;
+    margin-left: -0.2rem;
+  }
+
+}
+
+@media (max-width: 374px) {
+  .cta-form {
+    max-width: 23.5rem;
+  }
+
+  .founder-photo {
+    width: 96%;
+  }
+
+  .header-title-all.header-title-all-policy {
+    width: 280px;
+  }
+
+  .policy-content {
+    width: 280px;
+  }
+
+  .policy-text {
+    width: 280px;
+  }
+
+  .footer-menu-wrapper:last-child {
+    margin-left: 0;
+  }
+
+  .seo-text {
+    width: 287px;
+  }
 }
 
 

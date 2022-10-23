@@ -3,6 +3,7 @@ $page_title = 'Контрактное производство';
 $metka = '';
 $link_breadcrumb = 'production.php';
 $section_class_production = 'section-contracts';
+$page_title_contract_production_mobile = 'contract-production-mobile';
 include_once('header-page.php');?>
 
 <?php $block_title = ""; include_once('template-parts/production-block.php');?>

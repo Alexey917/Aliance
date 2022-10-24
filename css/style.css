@@ -1463,9 +1463,7 @@ body {
   margin-top: 6.25rem;
 }
 
-.slider-buttons-our {
-  margin-bottom: 9.375rem;
-}
+
 
 .slider-button-prev-color {
   border: 1px solid #ebebf0;
@@ -1699,6 +1697,10 @@ body {
   display: none;
 }
 
+.header-features-our {
+  margin-bottom: 9.375rem;
+}
+
 @media (min-width: 1920px) {
   #aliance-production-slider {
     width: 120rem;
@@ -1708,7 +1710,7 @@ body {
   .aliance-production-slider-footer {
     justify-content: flex-end;
     margin-right: 14.0625rem;
-}
+  }
 }
 
 @media (max-width: 1700px) {    
@@ -1835,6 +1837,11 @@ body {
 
   .footer-logo {
     max-width: 11rem;
+  }
+
+  .production-of-auto-chemicals-mg {
+    width: 45.5rem;
+    height: 37.25rem;
   }
 
 }
@@ -1968,6 +1975,40 @@ body {
 
   #width-blog-card-slider {
     width: 34.0625rem !important;
+  }
+
+  .slider-buttons-our {
+    margin-bottom: 9.375rem;
+  }
+
+  .header-features-our {
+    margin-bottom: 0;
+  }
+
+  .contract-autohim-content-wrapper {
+    flex-direction: column;
+  }
+
+  .contract-autohim-mg {
+    margin-right: 0;
+    margin-bottom: 6rem;
+    width: 60rem;
+    object-fit: cover;
+  }
+
+  .production-of-auto-chemicals-content-wrapper {
+    display: block;
+  }
+
+  .production-of-auto-chemicals-mg {
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .production-of-auto-chemicals-content {
+    width: 100%;
+    margin-bottom: 6rem;
   }
 }
 
@@ -2383,6 +2424,28 @@ body {
   #width-blog-card-slider {
     width: 100% !important;
   }
+
+  .contract-autohim-mg {
+    width: 42rem;
+    height: 39.875rem;
+  }
+
+  .production-of-auto-chemicals-mg {
+    position:absolute;
+    top: 41rem;
+  }
+
+  .section-types-of-autochemistry {
+    margin-top: 53rem;
+  }
+
+  .typers-of-autochemistry-content {
+    width: 39.5rem;
+  }
+
+  .typers-of-autochemistry-list {
+    columns: 2 auto;
+  }
 }
 
 @media (max-width: 576px) {
@@ -2525,6 +2588,10 @@ body {
 
   .aliance-production-text {
     width: 28.6875rem;
+  }
+
+  .production-of-auto-chemicals-mg {
+    top: 49rem;
   }
 }
 

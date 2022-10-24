@@ -4,6 +4,11 @@
       <div class="our-production-content">
         <div class="seporator seporator-our-production"></div>
         <h2 class="section-title title-our-production">Наше производство</h2>
+        <picture>
+          <source type="image/webp" srcset="img/our-production.webp">
+          <source type="image/jpeg" srcset="img/our-production.png">
+          <img  class="our-production-mg-mobile" src="img/our-production.png" alt="our-production">
+        </picture> 
         <p class="our-production-text">Предварительные выводы неутешительны: разбавленное изрядной долей эмпатии, рациональное мышление обеспечивает широкому кругу (специалистов) участие в формировании глубокомысленных рассуждений. Но граница обучения кадров создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса кластеризации усилий.</p>
         <p class="our-production-text">
         Реализация намеченных плановых заданий, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для соответствующих условий активизации. Предварительные выводы неутешительны: экономическая повестка сегодняшнего дня требует анализа анализа существующих паттернов поведения.

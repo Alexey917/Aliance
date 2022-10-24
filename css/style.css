@@ -1509,6 +1509,10 @@ body {
   object-fit: cover;
 }
 
+.our-production-mg-mobile {
+  display: none;
+}
+
 .our-client-list {
   margin-top: 1.875rem;
   margin-right: 1rem;
@@ -3394,6 +3398,10 @@ body {
   .section-experts {
     margin-top: 4.25rem;
   }
+
+  .experts-content {
+    width: 340px;
+  }
   
   .experts-text {
     margin-top: 1.35rem;
@@ -3402,6 +3410,43 @@ body {
     letter-spacing: 0.37px;
     line-height: 166%;
   }
+
+  .swiper-slide.header-features-item {
+    height: 12rem;
+  }  
+
+
+  .our-production-content-wrapper {
+    flex-direction: column;
+  }
+
+  .our-production-mg {
+    display: none;
+  }
+
+  .our-production-mg-mobile {
+    display: block;
+    height: 36rem;
+    object-fit: contain;
+    width: 29rem;
+    margin-bottom: 2.5rem;
+    margin-left: 0;
+  }
+
+  .slider-buttons-our {
+    margin-bottom: 2.375rem;
+  }
+
+  .title-our-production {
+    margin-bottom: 2.8rem;
+    letter-spacing: 0.7px;
+  }
+  
+  .our-production-text {
+    font-size: 1.18rem;
+    line-height: 153%;
+  }
+
 
 }
 

@@ -2,7 +2,7 @@
   <picture>
     <source type="image/webp" srcset="img/founder.webp">
     <source type="image/jpeg" srcset="img/founder.jpg">
-    <img  class="founder-photo" src="img/founder.jpg" alt="founder">
+    <img  class="founder-photo <?= $founder_photo_class;?>" src="img/founder.jpg" alt="founder">
   </picture>
       <div class="container">
         <div class="founder-content-wrapper">

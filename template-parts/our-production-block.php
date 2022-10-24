@@ -14,37 +14,43 @@
         Реализация намеченных плановых заданий, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для соответствующих условий активизации. Предварительные выводы неутешительны: экономическая повестка сегодняшнего дня требует анализа анализа существующих паттернов поведения.
         </p>
         <ul class="clients-list our-client-list">   
-          <li class="clients-list-item car">
+          <li class="clients-list-item client-list-style car">
              <svg class="client-logo">
                <use href="img/sprite.svg#car"></use>
              </svg>
              Автомобильная химия
           </li>
-          <li class="clients-list-item home">
+          <li class="clients-list-item client-list-style home">
               <svg class="client-logo">
                 <use href="img/sprite.svg#home"></use>
               </svg>
               Бытовая химия
           </li>
-          <li class="clients-list-item dis">
+          <li class="clients-list-item client-list-style dis">
               <svg class="client-logo">
                 <use href="img/sprite.svg#dis"></use>
               </svg>
               Дезинфицирующие средства
           </li>
-          <li class="clients-list-item food">
+          <li class="clients-list-item client-list-style food">
               <svg class="client-logo">
                 <use href="img/sprite.svg#cosmetic-mobile"></use>
               </svg>
               Пищевые аэрозоли
           </li>
-          <li class="clients-list-item cosmetic">
+          <li class="clients-list-item client-list-style cosmetic">
               <svg class="client-logo cosmetic-logo">
                 <use href="img/sprite.svg#cosmetic"></use>
               </svg>
               Косметическая продукция
           </li>
-          <li class="clients-list-item brush">
+          <li class="clients-list-item client-list-style cosmetic-380">
+              <svg class="client-logo cosmetic-mobile-logo">
+                <use href="img/sprite.svg#cosmetic"></use>
+              </svg>
+              Косметическая продукция
+          </li>
+          <li class="clients-list-item client-list-style brush">
               <svg class="client-logo">
                 <use href="img/sprite.svg#brush"></use>
               </svg>

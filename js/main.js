@@ -184,9 +184,12 @@ const alianceProduction = new Swiper('#aliance-production-slider', {
     320: {
       slidesPerView: 1,
     },
-    1080: {
+    1920: {
       slidesPerView: 4,
-    }
+    },
+    1080: {
+      slidesPerView: 2,
+    },
   }
 });
 

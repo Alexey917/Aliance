@@ -49,15 +49,15 @@
           </ul>
          
           <!-- кнопки навигации вперед/назад -->
-          <div class="sliders-buttons">
-            <div class="slider-button-prev">
+          <div class="sliders-buttons slider-buttons-our">
+            <div class="slider-button-prev slider-button-prev-color">
               <svg class="arrow-prev">
-                <use href="img/sprite.svg#arrow-prev"></use>
+                <use href="img/sprite.svg#arrow-prev-experts"></use>
               </svg>
             </div>
-            <div class="slider-button-next">
+            <div class="slider-button-next slider-button-prev-color">
               <svg class="arrow-next">
-                <use href="img/sprite.svg#arrow-next"></use>
+                <use href="img/sprite.svg#arrow-next-experts"></use>
               </svg>
             </div> 
           </div>

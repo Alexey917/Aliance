@@ -40,7 +40,7 @@
           </div>
 
           <div class="blog-slider-footer">
-            <a href="#" class="steps-link founder-link blog-link">Весь блог</a>
+            <a href="news.php" class="steps-link founder-link blog-link">Весь блог</a>
             <div class="blog-buttons">
               <div class="blog-button-prev primary-blog-button">
                 <svg class="arrow-prev-step  blog-arrow-left">

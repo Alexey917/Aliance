@@ -80,7 +80,7 @@
         </div>
         
       </div>
-      <hr color="#ebebf0" class="footer-seporator">
+      <hr class="footer-seporator">
       <div class="container">
         <div class="footer-bottom">
           <div class="footer-menu-wrapper">
@@ -116,6 +116,7 @@
               <li class="footer-menu-item">
                 <a href="#" class="footer-menu-link">Автохимия AP</a>
               </li>
+            </ul>
           </div>
 
         <div class="footer-menu-wrapper">
@@ -129,11 +130,12 @@
             <li class="footer-menu-item">
               <a href="contacts.html" class="footer-menu-link footer-menu-link-bold">Контакты</a>
             </li>
+  </ul>
         </div>
         
         </div>
       </div>
-      <hr color="#ebebf0" class="footer-seporator footer-seporator-2">
+      <hr class="footer-seporator footer-seporator-2">
         <div class="container">
           <div class="footer-wrapper">
             <div class="footer-legal">
@@ -205,9 +207,8 @@
         <p class="modal-text">
           Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
         </p>
-        <a class="modal-back" href="./">
-          <button type="submit" class="button modal-form-button">Вернуться на главную</button>
-        </a>
+          <button type="submit" class="button modal-form-button" onclick="document.location='./'">Вернуться на главную</button>
+
         
       </div>
     </div>

@@ -27,7 +27,7 @@ include_once('header-page.php');?>
     </div>
   </div>
 </section>
-<hr color="#ebebf0" class="footer-seporator">
+<hr class="footer-seporator">
 
 <footer class="footer footer-policy-policy">
   <div class="container">
@@ -70,7 +70,7 @@ include_once('header-page.php');?>
         </div>
         
   </div>
-  <hr color="#ebebf0" class="footer-seporator">
+  <hr class="footer-seporator">
   <div class="container">
         <div class="footer-bottom footer-bottom-policy">
           <div class="footer-menu-wrapper">
@@ -106,6 +106,7 @@ include_once('header-page.php');?>
               <li class="footer-menu-item">
                 <a href="#" class="footer-menu-link">Автохимия AP</a>
               </li>
+            </ul>
           </div>
 
         <div class="footer-menu-wrapper">
@@ -119,11 +120,12 @@ include_once('header-page.php');?>
             <li class="footer-menu-item">
               <a href="contacts.html" class="footer-menu-link footer-menu-link-bold">Контакты</a>
             </li>
+          </ul>
         </div>
         
         </div>
   </div>
-  <hr color="#ebebf0" class="footer-seporator footer-seporator-2">
+  <hr class="footer-seporator footer-seporator-2">
   <div class="container">
     <div class="footer-wrapper footer-wrapper-policy">
       <div class="footer-legal">

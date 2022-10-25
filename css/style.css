@@ -236,7 +236,7 @@ body {
 }
 
 .header-nav-item:not(:last-child) {
-  margin-right: 4.8%;
+  margin-right: 4.3%;
 }
 
 .header-nav-link {
@@ -304,6 +304,10 @@ body {
   background: #3a71d1;
   border: none;
   cursor: pointer;
+}
+
+.button:hover {
+  background: #5c8ee6;
 }
 
 .nav-button {
@@ -919,6 +923,10 @@ body {
   top: 0;
   background: rgba(41, 45, 51, 0.6);
   z-index: -1;
+}
+
+.blog-card:hover::before {
+  background: rgba(41, 45, 51, 0.8);
 }
 
 .blog-card-image {
@@ -2220,6 +2228,14 @@ body {
   .our-production-mg {
     margin-left: 4.4375rem;
   }
+}
+
+@media (max-width: 992px) {
+  .steps-link:hover::before {
+    display: none;
+  }
+
+
 }
 
 @media (max-width: 900px) {

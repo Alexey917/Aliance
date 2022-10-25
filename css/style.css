@@ -264,9 +264,7 @@ body {
   transition: transform 0.2s;
 }
 
-.header-nav-link:hover::after {
-  transform: scaleX(1);
-}
+
 
 .header-phone {
   flex-shrink: 0;
@@ -306,9 +304,6 @@ body {
   cursor: pointer;
 }
 
-.button:hover {
-  background: #5c8ee6;
-}
 
 .nav-button {
   height: 100%;
@@ -567,10 +562,6 @@ body {
   transition: width 0.2s;
 }
 
-.steps-link:hover::before {
-  width: 3.75rem;
-}
-
 .slider-button-prev-step,
 .slider-button-next-step {
   height: 100%;
@@ -613,14 +604,6 @@ body {
   border: 1px solid #ebebf0;
   text-decoration: none;
   transition: border 0.3s;
-}
-
-.card:hover .card-title {
-  color: #5c8ee6;
-}
-
-.card:hover {
-  border-color: #5c8ee6;
 }
 
 .card-content {
@@ -724,14 +707,6 @@ body {
   transition: border 0.3s;
 }
 
-.card-mark:hover .mark-title {
-  color: #5c8ee6;
-}
-
-.card-mark:hover {
-  border-color: #5c8ee6;
-}
-
 .ag-tech, .ap {
   grid-area: logo;
   width: 11.25rem;
@@ -759,14 +734,6 @@ body {
   font-size: 1rem;
   line-height: 160%;
   color: #828A99;
-}
-
-.card-mark:hover .ag-tech{
-  fill: #5c8ee6;
-}
-
-.card-mark:hover .ap {
-  fill: #5c8ee6;
 }
 
 .section-founder {
@@ -881,11 +848,6 @@ body {
   transition: filter 0.3s;
 }
 
-.clients-img:hover {
-  filter: grayscale(0%);
-
-}
-
 .cosmetic-logo {
   display: block;
   flex-shrink: 0;
@@ -923,10 +885,6 @@ body {
   top: 0;
   background: rgba(41, 45, 51, 0.6);
   z-index: -1;
-}
-
-.blog-card:hover::before {
-  background: rgba(41, 45, 51, 0.8);
 }
 
 .blog-card-image {
@@ -1766,10 +1724,6 @@ body {
   padding: .75rem 2.35rem;
 }
 
-.page-number:hover {
-  border: 1px solid #5c8ee6;
-}
-
 .page-number-link {
   text-decoration: none;
   font-style: normal;
@@ -1778,10 +1732,6 @@ body {
   line-height: 160%;
   text-align: center;
   color: #292d33;
-}
-
-.page-number:hover .page-number-link {
-  color: #5c8ee6;
 }
 
 .section-policy {
@@ -2230,11 +2180,58 @@ body {
   }
 }
 
-@media (max-width: 992px) {
-  .steps-link:hover::before {
-    display: none;
+@media (min-width: 992px) {
+  .header-nav-link:hover::after {
+    transform: scaleX(1);
   }
 
+  .button:hover {
+    background: #5c8ee6;
+  }
+
+  .steps-link:hover::before {
+    width: 3.75rem;
+  }
+
+  .card:hover .card-title {
+    color: #5c8ee6;
+  }
+
+  .card:hover {
+    border-color: #5c8ee6;
+  }
+
+  .card-mark:hover .mark-title {
+    color: #5c8ee6;
+  }
+
+  .card-mark:hover {
+    border-color: #5c8ee6;
+  }
+
+  .card-mark:hover .ag-tech{
+    fill: #5c8ee6;
+  }
+  
+  .card-mark:hover .ap {
+    fill: #5c8ee6;
+  }
+
+  .clients-img:hover {
+    filter: grayscale(0%);
+  }
+
+  .blog-card:hover::before {
+    background: rgba(41, 45, 51, 0.8);
+  }
+
+  .page-number:hover {
+    border: 1px solid #5c8ee6;
+  }
+
+  .page-number:hover .page-number-link {
+    color: #5c8ee6;
+  }
 
 }
 

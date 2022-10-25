@@ -2593,6 +2593,15 @@ body {
   .production-of-auto-chemicals-mg {
     top: 49rem;
   }
+
+  .contract-autohim-mg {
+    width: 32rem;
+    height: 31.875rem;
+  }
+
+  .typers-of-autochemistry-content {
+    width: 27.5rem;
+  }
 }
 
 @media (max-width: 380px) {
@@ -3565,6 +3574,89 @@ body {
     margin-top: 4.25rem;
   }
 
+  .section-contract-autohim {
+    margin-top: 4.25rem;
+  }
+
+  .contract-autohim-mg {
+    width: 28.6rem;
+    height: 35.875rem;
+    margin-bottom: 2rem;
+  }
+
+  .contract-autohim-text {
+    font-size: 1.15rem;
+  }
+
+  .contract-autohim-content {
+    margin-left: -0.2rem;
+    width: 343px;
+  }
+
+  .title-contract-autohim {
+    margin-bottom: -0.2rem;
+  }
+
+  .contract-autohim-text-2 {
+    margin-top: -0.4rem;
+  }
+
+  #contract-autohim {
+    margin-top: -1.1rem;
+  }
+
+  .slider-buttons-our {
+    margin-bottom: 7.375rem;
+  }
+
+  .production-of-auto-chemicals-text {
+    font-size: 1.15rem;
+  }
+
+  .title-production-of-auto-chemicals {
+    margin-bottom: 1rem;
+  }
+
+  .our-client-list {
+    margin-top: 2.1rem;
+    margin-left: -0.7rem;
+  }
+
+  .our-client-list-item {
+    margin-bottom: 0.3rem;
+    gap: 0.9rem;
+  }
+
+  .production-of-auto-chemicals-mg {
+    top: 62rem;
+    height: 25rem;
+  }
+
+  .section-types-of-autochemistry {
+    margin-top: 38.9rem;
+  }
+
+  .types-of-autochemistry-text {
+    font-size: 1.15rem;
+  }
+
+  .title-ctypes-of-autochemistry {
+    margin-bottom: -0.2rem;
+  }
+
+  .clients-list {
+    margin-left: 0.2rem;
+    margin-top: 2.5rem;
+  }
+
+  .section-aliance-production-autohim {
+    margin-top: 13rem;
+  }
+
+  .clients-aliance-production {
+
+  }
+
 
 }
 
@@ -3626,6 +3718,22 @@ body {
 
   .aliance-production-text {
     width: 23.6875rem;
+  }
+
+  .contract-autohim-mg {
+    width: 25.6rem;
+  }
+
+  .contract-autohim-content {
+    width: 276px;
+  }
+
+  .typers-of-autochemistry-content {
+    width: 22.5rem;
+  }
+
+  .production-of-auto-chemicals-mg {
+    top: 80rem;
   }
 }
 

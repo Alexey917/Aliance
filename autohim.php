@@ -5,6 +5,7 @@ $link_breadcrumb = 'autohim.php';
 $bread_last = 'last';
 $section_aliance_production_class = 'section-aliance-production-autohim';
 $clients_class = 'clients-aliance-production';
+$page_title_contract_production_mobile = 'contract-production-mobile';
 include_once('header-page.php');?>
 
 <section class="section-contract-autohim">

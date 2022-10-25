@@ -2233,6 +2233,19 @@ body {
     color: #5c8ee6;
   }
 
+  .footer-info-email:hover {
+    text-decoration: underline;
+  }
+
+  .footer-menu-link:hover {
+    text-decoration: underline;
+  }
+
+  .footer-menu-title:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
 }
 
 @media (max-width: 900px) {
